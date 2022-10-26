@@ -40,7 +40,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
           # repo: vuepress/vuepress.github.io
-          target_branch: main
+          target_branch: gh-pages
           build_dir: docs/.vuepress/dist
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
