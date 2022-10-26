@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-    # paths-ignore:
-    #   - '**/__tests__/**'
+    paths-ignore:
   workflow_dispatch:
 
 jobs:
@@ -13,18 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # DOCS_GA_ID: G-CTB8FQ7VMW
       NODE_VERSION: 16
 
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 6.0.2
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -33,10 +26,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm install
 
       - name: Build documentation site
-        run: pnpm docs:release
+        run: npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
