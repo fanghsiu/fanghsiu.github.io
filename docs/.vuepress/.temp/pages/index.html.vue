@@ -1,10 +1,4 @@
-<template><div><!-- # Hello VuePress -->
-<!--
-# fanghsiu.github.io
-Static website hosting repository
--->
-<h1 id="镜像源网站" tabindex="-1"><a class="header-anchor" href="#镜像源网站" aria-hidden="true">#</a> 镜像源网站</h1>
-<h2 id="国内镜像源" tabindex="-1"><a class="header-anchor" href="#国内镜像源" aria-hidden="true">#</a> 国内镜像源</h2>
+<template><div><h1 id="国内镜像源" tabindex="-1"><a class="header-anchor" href="#国内镜像源" aria-hidden="true">#</a> 国内镜像源</h1>
 <blockquote>
 <p><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">清华大学开源软件镜像站丨Tsinghua Open Source Mirror<ExternalLinkIcon/></a></p>
 </blockquote>

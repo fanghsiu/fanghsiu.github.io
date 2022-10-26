@@ -1,10 +1,9 @@
-<!-- # Hello VuePress -->
-<!--
-# fanghsiu.github.io
-Static website hosting repository
--->
-# 镜像源网站
-## 国内镜像源
+---
+home: true
+title: 首页
+---
+
+# 国内镜像源
 
 > [清华大学开源软件镜像站丨Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
 

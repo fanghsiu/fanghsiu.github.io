@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
   title: "Fang Hsiu's Wiki",
-  description: "这是我的第一个 VuePress 站点",
+  description: "由 VuePress 生成的静态 WiKi 网站",
   head: [["link", { rel: "icon", href: "/images/favicon.svg" }]],
   theme: defaultTheme({
     // 默认主题配置
@@ -13,6 +13,10 @@ export default defineUserConfig({
       {
         text: '首页',
         link: '/',
+      },
+      {
+        text: "Guide",
+        link: "/guide/",
       },
       {
         text: "GitHub",
