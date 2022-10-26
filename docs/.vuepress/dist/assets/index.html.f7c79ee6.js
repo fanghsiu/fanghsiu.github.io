@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"镜像源网站","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"国内镜像源","slug":"国内镜像源","link":"#国内镜像源","children":[]}],"git":{"updatedTime":1666802323000,"contributors":[{"name":"fanghsiu","email":"fanghsiu@outlook.com","commits":1}]},"filePathRelative":"README.md"}');export{e as data};
