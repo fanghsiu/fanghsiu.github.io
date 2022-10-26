@@ -33,9 +33,10 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           repo: fanghsiu/fanghsiu.github.io
           target_branch: gh-pages
           build_dir: docs/.vuepress/dist
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        
