@@ -1,0 +1,24 @@
+{
+  "name": "fanghsiu.github.io",
+  "version": "1.0.0",
+  "description": "<!--\r # fanghsiu.github.io\r Static website hosting repository\r -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanghsiu/fanghsiu.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanghsiu/fanghsiu.github.io/issues"
+  },
+  "homepage": "https://github.com/fanghsiu/fanghsiu.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  }
+}
