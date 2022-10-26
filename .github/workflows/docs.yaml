@@ -2,7 +2,10 @@ name: docs
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+    # paths-ignore:
+    #   - '**/__tests__/**'
   workflow_dispatch:
 
 jobs:
@@ -10,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
+      # DOCS_GA_ID: G-CTB8FQ7VMW
       NODE_VERSION: '16'
 
     steps:
@@ -17,22 +21,26 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: npm
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Build VuePress site
-        run: npm run docs:build
+      - name: Build documentation site
+        run: pnpm docs:release
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
-          target_branch: gh-pages
+          # repo: vuepress/vuepress.github.io
+          target_branch: main
           build_dir: docs/.vuepress/dist
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
