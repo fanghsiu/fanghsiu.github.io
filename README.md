@@ -6,3 +6,5 @@ Static website hosting repository
 国内镜像源
 
 > [清华大学开源软件镜像站丨Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
+
+> [USTC Open Source Software Mirror](https://mirrors.ustc.edu.cn/)
