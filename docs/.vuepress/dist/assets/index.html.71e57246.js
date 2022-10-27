@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-fffb8e28","path":"/guide/","title":"常用国内开源镜像站","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666846942000,"contributors":[{"name":"fanghsiu","email":"fanghsiu@outlook.com","commits":2}]},"filePathRelative":"guide/README.md"}');export{e as data};

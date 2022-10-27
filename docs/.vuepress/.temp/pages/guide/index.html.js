@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-fffb8e28\",\"path\":\"/guide/\",\"title\":\"常用国内开源镜像站\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1666848674000,\"contributors\":[{\"name\":\"fanghsiu\",\"email\":\"fanghsiu@outlook.com\",\"commits\":3}]},\"filePathRelative\":\"guide/README.md\"}")
