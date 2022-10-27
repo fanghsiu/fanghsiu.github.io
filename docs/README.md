@@ -2,18 +2,13 @@
 home: true
 title: 首页
 heroImage: /images/logo.svg
+actions:
+  - text: Guide
+    link: /guide/
+    type: secondary
+features:
+  - title: 简洁至上
+    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
 ---
 
-# 常用国内开源镜像站
-
-> [清华大学开源软件镜像站丨Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
-
-> [USTC Open Source Software Mirror](https://mirrors.ustc.edu.cn/)
-
-> [阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区](https://developer.aliyun.com/mirror)
-
-> [腾讯软件源](https://mirrors.cloud.tencent.com/)
-
-> [华为开源镜像站_软件开发服务_华为云](https://mirrors.huaweicloud.com/home)
-
-> [欢迎访问网易开源镜像站](http://mirrors.163.com/)
+Static Website Hosting Repository

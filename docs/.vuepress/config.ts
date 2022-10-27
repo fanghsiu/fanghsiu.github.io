@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress"
 import { defaultTheme } from 'vuepress'
+import { copyCodePlugin } from "vuepress-plugin-copy-code2"
 
 export default defineUserConfig({
   base: "/",
@@ -9,7 +10,6 @@ export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/images/logo.svg" }]],
   theme: defaultTheme({
     // 默认主题配置
-    logo: "/images/logo.svg",
     navbar: [
       {
         text: '首页',
@@ -19,11 +19,18 @@ export default defineUserConfig({
         text: "Guide",
         link: "/guide/",
       },
-      {
-        text: "GitHub",
-        link: "https://github.com/fanghsiu/fanghsiu.github.io",
-      },
     ],
+    logo: "/images/logo.svg",
+    repo: "fanghsiu/fanghsiu.github.io",
+    editLink: true,
+    editLinkText: "在 GitHub 上编辑此页",
+    docsDir: 'docs',
   }),
+  plugins: [
+    copyCodePlugin({
+      // 插件选项
+      duration: 1000,
+      showInMobile: true,
+    }),
+  ],
 })
-
