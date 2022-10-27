@@ -22,7 +22,6 @@ export default defineUserConfig({
     logo: "/images/logo.svg",
     repo: "fanghsiu/fanghsiu.github.io",
     editLink: true,
-    editLinkText: "在 GitHub 上编辑此页",
     docsDir: "docs",
   }),
 })
