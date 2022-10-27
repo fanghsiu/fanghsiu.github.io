@@ -8,7 +8,7 @@
 
 > [阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区](https://developer.aliyun.com/mirror)
 
-> [腾讯软件源](https://mirrors.cloud.tencent.com/)
+> [腾讯软件源](https://mirrors.tencent.com/)
 
 > [华为开源镜像站_软件开发服务_华为云](https://mirrors.huaweicloud.com/home)
 
