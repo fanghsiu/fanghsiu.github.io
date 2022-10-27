@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress"
 import { defaultTheme } from "vuepress"
-import { copyCodePlugin } from "vuepress-plugin-copy-code2"
 
 export default defineUserConfig({
   base: "/",
@@ -26,11 +25,4 @@ export default defineUserConfig({
     editLinkText: "在 GitHub 上编辑此页",
     docsDir: "docs",
   }),
-  plugins: [
-    copyCodePlugin({
-      // 插件选项
-      duration: 1000,
-      showInMobile: true,
-    }),
-  ],
 })

@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/fanghsiu/fanghsiu.github.io#readme",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.53",
-    "vuepress-plugin-copy-code2": "^2.0.0-beta.115"
+    "vuepress": "^2.0.0-beta.53"
   }
 }

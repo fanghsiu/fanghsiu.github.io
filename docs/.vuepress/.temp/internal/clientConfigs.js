@@ -5,8 +5,6 @@ import clientConfig3 from 'D:/Projects/Git/fanghsiu.github.io/node_modules/@vuep
 import clientConfig4 from 'D:/Projects/Git/fanghsiu.github.io/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig5 from 'D:/Projects/Git/fanghsiu.github.io/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from 'D:/Projects/Git/fanghsiu.github.io/node_modules/@vuepress/theme-default/lib/client/config.js'
-import clientConfig7 from 'D:/Projects/Git/fanghsiu.github.io/docs/.vuepress/.temp/sass-palette/load-hope.js'
-import clientConfig8 from 'D:/Projects/Git/fanghsiu.github.io/node_modules/vuepress-plugin-copy-code2/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -16,6 +14,4 @@ export const clientConfigs = [
   clientConfig4,
   clientConfig5,
   clientConfig6,
-  clientConfig7,
-  clientConfig8,
 ]
