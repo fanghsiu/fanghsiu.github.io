@@ -9,9 +9,3 @@
 > [腾讯软件源](https://mirrors.cloud.tencent.com/)
 
 > [华为开源镜像站_软件开发服务_华为云](https://mirrors.huaweicloud.com/home)
-
-> [欢迎访问网易开源镜像站](http://mirrors.163.com/)
-
-```python
-print("Hello World!")
-```
