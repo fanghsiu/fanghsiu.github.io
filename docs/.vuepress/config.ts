@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress"
-import { defaultTheme } from 'vuepress'
+import { defaultTheme } from "vuepress"
 import { copyCodePlugin } from "vuepress-plugin-copy-code2"
 
 export default defineUserConfig({
@@ -12,8 +12,8 @@ export default defineUserConfig({
     // 默认主题配置
     navbar: [
       {
-        text: '首页',
-        link: '/',
+        text: "首页",
+        link: "/",
       },
       {
         text: "Guide",
@@ -24,7 +24,7 @@ export default defineUserConfig({
     repo: "fanghsiu/fanghsiu.github.io",
     editLink: true,
     editLinkText: "在 GitHub 上编辑此页",
-    docsDir: 'docs',
+    docsDir: "docs",
   }),
   plugins: [
     copyCodePlugin({
