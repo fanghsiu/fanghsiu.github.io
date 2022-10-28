@@ -40,6 +40,10 @@ jobs:
           target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
+          # 增量提交，默认 false
+          keep_history: true
+          # 将给定的域名写入 CNAME 文件
+          fqdn: wiki.fanghsiu.top
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
