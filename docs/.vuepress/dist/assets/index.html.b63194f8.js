@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a as s}from"./app.81b03802.js";const c={},n=s("p",null,"Static Website Hosting Repository",-1),_=[n];function a(i,r){return t(),o("div",null,_)}const d=e(c,[["render",a],["__file","index.html.vue"]]);export{d as default};
