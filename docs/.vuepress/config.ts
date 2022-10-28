@@ -18,6 +18,10 @@ export default defineUserConfig({
         text: "Guide",
         link: "/guide/",
       },
+      {
+        text: "私人博客",
+        link: "http://www.fanghsiu.top",
+      },
     ],
     logo: "/images/logo.svg",
     repo: "fanghsiu/fanghsiu.github.io",
