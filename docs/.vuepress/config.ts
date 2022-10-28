@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress"
 import { defaultTheme } from "vuepress"
+import { navbar, sidebar } from "./configs"
 
 export default defineUserConfig({
   base: "/",
@@ -9,20 +10,8 @@ export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/images/logo.svg" }]],
   theme: defaultTheme({
     // 默认主题配置
-    navbar: [
-      {
-        text: "首页",
-        link: "/",
-      },
-      {
-        text: "Guide",
-        link: "/guide/",
-      },
-      {
-        text: "私人博客",
-        link: "http://www.fanghsiu.top",
-      },
-    ],
+    navbar: navbar.zh,
+    sidebar: sidebar.zh,
     logo: "/images/logo.svg",
     repo: "fanghsiu/fanghsiu.github.io",
     editLink: true,
