@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6e0d8f34","path":"/guide/1.html","title":"内容暂定","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667012748000,"contributors":[{"name":"fanghsiu","email":"fanghsiu@outlook.com","commits":1},{"name":"方脩","email":"fanghsiu@outlook.com","commits":1}]},"filePathRelative":"guide/1.md"}');export{e as data};
