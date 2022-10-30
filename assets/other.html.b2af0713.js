@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,b as r}from"./app.e482c3e9.js";const c={},s=e("h1",{id:"内容暂定",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#内容暂定","aria-hidden":"true"},"#"),r(" 内容暂定")],-1),n=[s];function _(d,h){return a(),o("div",null,n)}const l=t(c,[["render",_],["__file","other.html.vue"]]);export{l as default};
