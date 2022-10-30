@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress"
 import { defaultTheme } from "vuepress"
 import { navbar, sidebar } from "./configs"
+import { externalLinkIconPlugin } from '@vuepress/plugin-external-link-icon'
 
 export default defineUserConfig({
   base: "/",

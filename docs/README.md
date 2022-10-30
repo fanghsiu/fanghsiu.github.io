@@ -6,11 +6,9 @@ actions:
   - text: 快速浏览
     link: /guide/
     type: primary
-features:
-  - title: 
-    details:
-footer: MIT Licensed | Powered by <a href="https://v2.vuepress.vuejs.org/zh/">VuePress</a>
+# features:
+#   - title: 
+#     details:
+footer: MIT Licensed | Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/zh/">VuePress</a> | Github
 footerHtml: true
 ---
-
-
