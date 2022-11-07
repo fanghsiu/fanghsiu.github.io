@@ -2,6 +2,8 @@
 
 ## 开源镜像站
 
+> [校园网联合镜像站](https://mirrors.cernet.edu.cn/)
+
 > [清华大学开源软件镜像站丨Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
 
 > [USTC Open Source Software Mirror](https://mirrors.ustc.edu.cn/)
