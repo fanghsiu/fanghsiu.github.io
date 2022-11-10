@@ -26,11 +26,10 @@
 
 > [字节跳动静态资源公共库](https://cdn.bytedance.com/)
 
+> [UNPKG](https://unpkg.com/)
+
 ## NPM
 
 > [npm](https://www.npmjs.com/)
 
-> [UNPKG](https://unpkg.com/)
-
 > [npmmirror 中国镜像站](https://npmmirror.com/)
-
