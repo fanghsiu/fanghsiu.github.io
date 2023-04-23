@@ -6,8 +6,8 @@ on:
       # The branch where the project source code resides
       # 项目源代码所在的分支
       - main
-      - master
-      - valaxy
+      # - master
+      # - valaxy
 
 jobs:
   build:
@@ -34,9 +34,9 @@ jobs:
       - name: 🌌 Build Valaxy Blog
         run: npm run build
 
-      - name: 🪤 Deploy to GitHub Pages
+      - name: 🌏 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.VALAXY_TOKEN }}
           publish_dir: ./dist
           force_orphan: true
