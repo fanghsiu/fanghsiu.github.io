@@ -1,0 +1,7 @@
+# robots.txt
+
+User-agent: *
+
+Disallow: 
+
+Sitemap: https://www.fanghsiu.top/sitemap.xml
