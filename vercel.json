@@ -4,8 +4,8 @@
     },
     "rewrites": [
         {
-            "source": "/:match*",
-            "destination": "/:match*"
+            "source": "/:path(.*)",
+            "destination": "/index.html"
         }
     ]
 }
