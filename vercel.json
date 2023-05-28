@@ -5,7 +5,7 @@
     "rewrites": [
         {
             "source": "/:path(.*)",
-            "destination": "/:path(.*)/"
+            "destination": "/:match*"
         }
     ]
 }
