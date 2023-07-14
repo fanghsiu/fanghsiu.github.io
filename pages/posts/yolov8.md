@@ -3,6 +3,10 @@ title: 记第一次 YOLOv8 检测训练
 end: false
 ---
 
+啊 YOLOv8
+
+<!-- more -->
+
 > [nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)
 >
 > [NaN tensor values problem for GTX16xx users (no problem on other devices) · Issue #7908 · ultralytics/yolov5](https://github.com/ultralytics/yolov5/issues/7908)
@@ -13,13 +17,39 @@ YOLOv8 包名为 ultralytics
 
 <hr>
 
-我的环境：  
-Windows 10 专业版 22H2 19045.2846  
-显卡 NVIDIA GeForce GTX1650 4G  
-python 3.18.16  
-pytorch                   1.13.1  
-pytorch-cuda              11.7  
-ultralytics(YOLOv8)       8.0.93
+我的环境：
+<table>
+<tbody>
+  <tr>
+    <td>操作系统</td>
+    <td>windows 10 professional 22H2</td>
+  </tr>
+  <tr>
+    <td>CPU</td>
+    <td>Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz</td>
+  </tr>
+  <tr>
+    <td>GPU</td>
+    <td>NVIDIA GeForce GTX1650 4G</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>3.18.16</td>
+  </tr>
+  <tr>
+    <td>Pytorch</td>
+    <td>1.13.1</td>
+  </tr>
+  <tr>
+    <td>pytorch-cuda</td>
+    <td>11.7</td>
+  </tr>
+  <tr>
+    <td>ultralytics (YOLOv8)</td>
+    <td>8.0.93</td>
+  </tr>
+</tbody>
+</table>
 
 <hr>
 
@@ -71,18 +101,18 @@ thop>=0.1.1  # FLOPs computation
 ```
 :::
 ### 新建环境
-推荐使用 conda 新建一个 Python3.7 环境。  
+推荐使用 conda 新建一个 Python3.8 环境。  
 ```sh
-conda create -n myenv python=3.7 
+conda create -n myenv python=3.8 
 ```
-当时先安装的最新的 pytorch2.0 要求 python>=3.8 所以就是3.8版本了，结果后面发现opencv-python 4.6只针对3.6，3.7发布了包，4.7针对3.7发布了包，虽然可以安装使用，但是在pycharm中使用cv2包的函数时会没有提示并且有警告，如：`在 '__init__.py' 中找不到引用 'imshow'`。有点强迫症，很难受，但其他包已经安装完了，也就不好再改。
+最新的 pytorch 2.0 版本要求 Python 3.8-3.11
 ### 安装 Pytorch
 查看 cuda 版本
 ```sh
 nvidia-smi
 ```
 
-安装 Pytorch。因为最新版本要求 Python 3.8-3.11，所以推荐选择 Pytorch<=1.13.1 并根据 cuda 版本选择安装命令。更多版本请参考官方文档[Previous PyTorch Versions | PyTorch](https://pytorch.org/get-started/previous-versions/)
+安装 Pytorch1.31.1 根据 cuda 版本选择安装命令。更多版本请参考官方文档[Previous PyTorch Versions | PyTorch](https://pytorch.org/get-started/previous-versions/)
 ```bash
 # CUDA 11.6
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
@@ -105,11 +135,11 @@ print(torch.cuda.get_device_name(0))  # 返回设备的名称。默认参数为�
 ```
 
 ### 安装YOLOv8
-通过 pip 安装 ultralytics 包以获得最新的 YOLOv8 稳定版本
+通过 pip 安装 ultralytics 包以获得最新的 YOLOv8 稳定版本。
 ```sh
 pip install ultralytics
 ```
-通过克隆 https://github.com/ultralytics/ultralytics 最新版本的存储库安装 YOLOv8
+通过克隆 https://github.com/ultralytics/ultralytics 最新版本的存储库安装 YOLOv8。（我用的这种）
 ```sh
 git clone https://github.com/ultralytics/ultralytics
 cd ultralytics
@@ -119,7 +149,7 @@ pip install -e .
 
 ## 数据准备
 ### 数据格式
-我是做的目标检测，就说一下这个模式需要的数据集，其他格式参考官方文档  
+我是做的目标检测，就说一下这个模式需要的数据集，其他格式参考官方文档。  
 用官方给的一个 coco8 数据集做例子，方便理解，主要体积只有 1MB。方便实验。下面是他的一个数据结构。
 :::details coco8数据集结构
 ```txt
@@ -259,7 +289,7 @@ download: https://ultralytics.com/assets/coco8.zip
 ```
 :::
 
-种类哪里可以换一种写法
+种类哪里也可以换一种写法
 ```yaml
 # Classes
 nc: 80
@@ -282,5 +312,17 @@ names:
   0: wheat
 ```
 
+## 模型训练
+用你自己的数据集进行替换 data 的 coco128.yaml
+```sh
+# Build a new model from YAML and start training from scratch
+yolo detect train data=coco128.yaml model=yolov8n.yaml epochs=100 imgsz=640
+
+# Start training from a pretrained *.pt model
+yolo detect train data=coco128.yaml model=yolov8n.pt epochs=100 imgsz=640
+
+# Build a new model from YAML, transfer pretrained weights to it and start training
+yolo detect train data=coco128.yaml model=yolov8n.yaml pretrained=yolov8n.pt epochs=100 imgsz=640
+```
 第一次用yolo，结果GTX16系列显卡有大坑，NVIDIA对GTX16xx相关CUDA包有问题，在训练时需要将amp设置为False。
 
