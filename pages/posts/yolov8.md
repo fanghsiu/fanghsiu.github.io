@@ -3,8 +3,6 @@ title: 记第一次 YOLOv8 检测训练
 end: false
 ---
 
-啊 YOLOv8
-
 <!-- more -->
 
 > [nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)
