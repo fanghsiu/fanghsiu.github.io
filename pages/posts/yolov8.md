@@ -322,5 +322,4 @@ yolo detect train data=coco128.yaml model=yolov8n.pt epochs=100 imgsz=640
 # Build a new model from YAML, transfer pretrained weights to it and start training
 yolo detect train data=coco128.yaml model=yolov8n.yaml pretrained=yolov8n.pt epochs=100 imgsz=640
 ```
-第一次用yolo，结果GTX16系列显卡有大坑，NVIDIA对GTX16xx相关CUDA包有问题，在训练时需要将amp设置为False。
-
+第一次用 yolo，结果 GTX16 系列显卡有大坑，看别人说 NVIDIA GTX16xx 相关 CUDA 包有问题，所以在训练时需要将 amp 设置为 False。
