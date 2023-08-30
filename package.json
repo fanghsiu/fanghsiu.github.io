@@ -1,6 +1,6 @@
 {
   "name": "fanghsiu.github.io",
-  "version": "0.14.45",
+  "version": "0.14.54",
   "private": true,
   "scripts": {
     "build": "npm run build:ssg && npm run rss && npm run fuse",
