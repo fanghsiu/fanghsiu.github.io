@@ -1,6 +1,6 @@
 ---
 title: 账号密码
-hide: index
+hide: true
 date: 1000-01-01
 updated: 1000-01-01
 comment: false
