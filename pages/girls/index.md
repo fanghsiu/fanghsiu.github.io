@@ -10,7 +10,7 @@ aside: false
 ---
 
 <div class="text-center" m="2" title="我全都要！">
-! 大家都是我的天使 !
+ʚ 大家都是我的天使 ɞ
 </div>
 
 <YunGirls :girls="frontmatter.girls" :random="frontmatter.random" />
