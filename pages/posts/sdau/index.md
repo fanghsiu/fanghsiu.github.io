@@ -230,13 +230,13 @@ til we meet again<br/>
 
 我不太喜欢拍照，所以没有太多的照片可以放上来，想一想还真是有些遗憾。
 
-![本人](/images/sdau/g.jpg)_本人_
+![本人](./g.jpg)_本人_
 
-![504F4](/images/sdau/509f4A.jpg)_509F4_
+![504F4](./509f4A.jpg)_509F4_
 
-![504F4](/images/sdau/509f4B.jpg)_509F4_
+![504F4](./509f4B.jpg)_509F4_
 
-![班级合照](/images/sdau/class.jpg)_班级合照_
+![班级合照](./class.jpg)_班级合照_
 
-![小路](/images/sdau/pathway.jpg)_走了四年的到宿舍的小路_
+![小路](./pathway.jpg)_走了四年的到宿舍的小路_
 

@@ -8,11 +8,11 @@
     {
         "name": "初音未来",
         "from":"Virtual singer",
-        "avatar":"/images/miku.jpg"
+        "avatar":"./miku.jpg"
     },
     {
         "name": "德丽莎·阿波卡利斯(崩坏3)/月下誓约·予爱以心",
         "from": "bh3",
-        "avatar": "/images/yuexia.png"
+        "avatar": "./yuexia.png"
     }
 ]
