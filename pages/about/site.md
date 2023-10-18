@@ -8,6 +8,6 @@ updated: 2002-05-25 00:00:00
 
 ## 🏠 关于本站
 
-**由[`Valaxy`](https://valaxy.site/)驱动。**
+**由[**`Valaxy`**](https://valaxy.site/)驱动。**
 
-**使用内置主题`Yun`。**
+**使用内置主题[**`Yun`**](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)。**
