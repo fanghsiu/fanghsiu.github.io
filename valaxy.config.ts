@@ -12,7 +12,6 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
-
   theme: 'yun',
 
   themeConfig: {
@@ -23,6 +22,16 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
+
+    say: {
+      enable: false,
+      api: '',
+      hitokoto: {
+        enable: false,
+        api: ''
+      }
+    },
+
     bg_image: {
       enable: true,
       url: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
@@ -30,6 +39,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       // dark: 'https://gukaifeng.cn/img/bg.jpg',
       opacity: 0.35
     },
+
     pages: [
       {
         name: '友人帐',
@@ -39,7 +49,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
-        name: '百花园',
+        name: '铜雀台',
         url: '/girls/',
         // icon: 'i-ri-women-line',
         icon: 'i-ri-user-heart-line',

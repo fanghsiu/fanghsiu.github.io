@@ -1,10 +1,11 @@
 ---
 title: 账号密码
-hide: true
 date: 1000-01-01
 updated: 1000-01-01
+hide: true
+nav: false  # 是否显示前一篇、后一篇导航
+# aside: false
 comment: false
-aside: false
 ---
 
 ## PicACG

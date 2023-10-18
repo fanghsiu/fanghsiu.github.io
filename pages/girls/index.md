@@ -4,9 +4,9 @@ date: 2019-01-07 11:17:35
 updated: 2023-02-22 00:00:00
 girls: /girls/girls.json
 random: false
-aside: false
+nav: false  # 是否显示前一篇、后一篇导航
 toc: false
-nav: false
+aside: false
 ---
 
 <div class="text-center" m="2" title="我全都要！">
