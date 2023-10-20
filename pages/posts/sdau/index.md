@@ -2,9 +2,20 @@
 layout: post
 title: 山农记忆
 date: 2023-06-20 00:00:00
+hide: true
+nav: false
+aplayer: true
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2044858935&auto=1&height=66"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2044858935&auto=1&height=66"></iframe> -->
+
+<meting-js
+    id="2044858935"
+    server="netease"
+    type="song"
+    theme="#66CCFF">
+</meting-js>
+
 
 毕业了，想在这写点什么，却又不知道写些什么，姑且想到哪写到哪吧。
 
@@ -12,8 +23,9 @@ date: 2023-06-20 00:00:00
 
 写，写个屁。大学四年，三年疫情。在泰安四年，没爬过泰山。贴个歌词放几张图完事吧。
 
-<hr>
-
+---
+<details>
+<summary>坎农-塞西尔</summary>
 <p style="text-align:center">
 We used to be just strangers in different worlds<br/>
 曾经我们只是来自不同世界的陌生人
@@ -225,6 +237,9 @@ til we meet again<br/>
 til we meet again<br/>
 直到与你重逢在花季
 </p>
+</details>
+
+---
 
 ## 一些照片
 
