@@ -11,16 +11,17 @@ end: false
     id="2044858935"
     server="netease"
     type="song"
-    theme="#66CCFF">
+    theme="#66CCFF"
+    lrc-type="0">
 </meting-js>
 
 **欢迎来到我的小站呀，很高兴遇见你！🤝**
 
 ## 🏠关于本站
 
-**由[**`Valaxy`**](https://valaxy.site/)驱动。**
+**由 [**Valaxy**](https://valaxy.site/) 驱动。**
 
-**使用内置主题[**`Yun`**](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)。**
+**使用内置主题 [**Yun**](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)。**
 
 
 ## 📖本站编年史
@@ -36,6 +37,7 @@ end: false
   大抵是这一年吧，用的 Hexo 部署在 GitHub Pages ，主题是 Butterfly。
 - Gridea+Github Pages  
   大抵是这一年吧，因为 Gridea 使用方便，安装即用，不需要 Hexo 那样敲命令，而且其中一个主题有我比较喜欢的侧边栏，而且很好看，所以改用的 Gridea 部署在 GitHub Pages ，主题是 Fog。也是从那知道了 Vercel，Netlify 这两个托管网站，因为是直接上传渲染后的文件，所以还没有用这些托管。
+
 </details>
 
 ---
@@ -51,7 +53,6 @@ end: false
 
 ### 2022-07-01 fanghsiu.top
 在 NameSilo 趁活动花费 0.99$ 折合 6.67￥ 买下了 fanghsiu.top 这个域名，也是使用 Cloudflare 进行 DNS 解析。（居然没识别变蓝...）
-
 
 </details>
 

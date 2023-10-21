@@ -88,3 +88,7 @@ curl cip.cc
 ```bash
 curl -L ip.tool.lu
 ```
+
+```bash
+curl myip.ipip.net
+```
