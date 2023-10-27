@@ -112,5 +112,9 @@ export default defineSiteConfig({
 
   mediumZoom: {
     enable: true
+  },
+
+  encrypt: {
+    enable: true
   }
 })

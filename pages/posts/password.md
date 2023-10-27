@@ -6,6 +6,7 @@ hide: true
 nav: false  # 是否显示前一篇、后一篇导航
 # aside: false
 comment: false
+password: lty120712
 ---
 
 ## PicACG
