@@ -247,7 +247,7 @@ til we meet again<br/>
 
 我不太喜欢拍照，所以没有太多的照片可以放上来，想一想还真是有些遗憾。
 
-![本人](/images/sdau/g.jpg){:height="50%" width="50%"}_本人_
+![本人](/images/sdau/g.jpg)_本人_
 
 ![504F4](/images/sdau/509f4A.jpg)_509F4_
 
