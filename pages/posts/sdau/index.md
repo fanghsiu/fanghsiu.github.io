@@ -2,9 +2,10 @@
 layout: post
 title: 山农记忆
 date: 2023-06-20 00:00:00
-hide: true
-nav: false
+# hide: true
+# nav: false
 aplayer: true
+password: sdau
 ---
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2044858935&auto=1&height=66"></iframe> -->
@@ -13,7 +14,8 @@ aplayer: true
     id="2044858935"
     server="netease"
     type="song"
-    theme="#66CCFF">
+    theme="#66CCFF"
+    lrc-type="0">
 </meting-js>
 
 
