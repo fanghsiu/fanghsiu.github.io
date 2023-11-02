@@ -1,6 +1,9 @@
 ---
 title: 记第一次 YOLOv8 检测训练
+date: 2023-07-01
+updated: 2023-07-02
 end: false
+# time_warning: true
 ---
 
 <!-- more -->
