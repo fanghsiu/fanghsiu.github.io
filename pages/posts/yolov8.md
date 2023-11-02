@@ -1,16 +1,17 @@
 ---
+layout: post
 title: 记第一次 YOLOv8 检测训练
-date: 2023-07-01
-updated: 2023-07-02
-end: false
-# time_warning: true
+date: 2023-07-05
+updated: 2023-07-05
+# end: false
 ---
 
-<!-- more -->
 
-> [nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)
->
-> [NaN tensor values problem for GTX16xx users (no problem on other devices) · Issue #7908 · ultralytics/yolov5](https://github.com/ultralytics/yolov5/issues/7908)
+
+
+[nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)
+
+[NaN tensor values problem for GTX16xx users (no problem on other devices) · Issue #7908 · ultralytics/yolov5](https://github.com/ultralytics/yolov5/issues/7908)
 
 
 ## 环境准备
