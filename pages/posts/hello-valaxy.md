@@ -3,10 +3,7 @@ title: Hello, Valaxy!
 date: 2022-04-01
 updated: 2022-04-01
 categories: Valaxy 笔记
-tags:
-  - valaxy
-  - 笔记
-# top: 1
+tags: [valaxy,笔记]
 ---
 
 ## Valaxy
@@ -15,7 +12,25 @@ Next Generation Static Blog Framework.
 
 Write your first post!
 
+## Create Valaxy
+
+Example: [valaxy.site](https://valaxy.site)
+
 ## Usage
+
+```bash
+# install
+npm i
+# or pnpm i
+
+# start
+npm run dev
+# or pnpm dev
+```
+
+See `http://localhost:4859/`, have fun!
+
+### Config
 
 Modify `valaxy.config.ts` to custom your blog.
 
@@ -200,30 +215,6 @@ export default defineSiteConfig({
 
 ```
 :::
-
-# create-valaxy
-
-Example: [valaxy.site](https://valaxy.site)
-
-## Usage
-
-```bash
-# install
-npm i
-# or pnpm i
-
-# start
-npm run dev
-# or pnpm dev
-```
-
-See `http://localhost:4859/`, have fun!
-
-### Config
-
-Modify `valaxy.config.ts` to custom your blog.
-
-English & Chinese Docs is coming!
 
 > Wait a minute.
 

@@ -2,7 +2,7 @@
 title: Windows工具
 date: 2023-10-20
 updated: 2023-10-20
-tags: ['Windows']
+tags: [Windows]
 end: false
 ---
 
@@ -18,20 +18,19 @@ A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activatio
 
 #### Method 1 - PowerShell (Recommended)
 
--   On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
--   Copy-paste the below code and press enter\
-    `irm https://massgrave.dev/get | iex`
--   You will see the activation options, and follow onscreen instructions.
--   That's all.
+- On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
+- Copy-paste the below code and press enter `irm https://massgrave.dev/get | iex`
+- You will see the activation options, and follow onscreen instructions.
+- That's all.
 
 #### Method 2 - Traditional
 
--   Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)
--   Right-click on the downloaded zip file and extract
--   In the extracted folder, find the folder named `All-In-One-Version`
--   Run the file named `MAS_AIO.cmd`
--   You will see the activation options, and follow onscreen instructions.
--   That's all.
+- Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)
+- Right-click on the downloaded zip file and extract
+- In the extracted folder, find the folder named `All-In-One-Version`
+- Run the file named `MAS_AIO.cmd`
+- You will see the activation options, and follow onscreen instructions.
+- That's all.
 
 ## IDM Activation Script (IAS)
 
@@ -43,26 +42,25 @@ An open source tool to activate and reset trial of [Internet Download Manager](h
 
 ### Download / How to use it?
 
--   First fresh install [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
--   After that follow below steps to activate it.
+- First fresh install [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
+- After that follow below steps to activate it.
 
 #### Method 1 - PowerShell
 
 (Recommended)
 
--   On Windows 8.1/10/11, right-click on the windows start menu and select PowerShell or Terminal (Not CMD).
--   Copy-paste the below code and press enter\
-    `irm https://massgrave.dev/ias | iex`
--   You will see the activation options, and follow onscreen instructions.
--   That's all.
+- On Windows 8.1/10/11, right-click on the windows start menu and select PowerShell or Terminal (Not CMD).
+- Copy-paste the below code and press enter `irm https://massgrave.dev/ias | iex`
+- You will see the activation options, and follow onscreen instructions.
+- That's all.
 
 #### Method 2 - Traditional
 
--   Download the file from [here](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip)
--   Right click on the downloaded zip file and extract
--   In the extracted folder, run the file named `IAS.cmd`
--   You will see the activation options, and follow onscreen instructions.
--   That's all.
+- Download the file from [here](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip)
+- Right click on the downloaded zip file and extract
+- In the extracted folder, run the file named `IAS.cmd`
+- You will see the activation options, and follow onscreen instructions.
+- That's all.
 
 ## Microsoft PowerToys
 
@@ -82,4 +80,3 @@ Microsoft PowerToys is a set of utilities for power users to tune and streamline
 | [PowerToys Run](https://aka.ms/PowerToysOverview_PowerToysRun) | [Quick Accent](https://aka.ms/PowerToysOverview_QuickAccent) | [Registry Preview](https://aka.ms/PowerToysOverview_RegistryPreview) |
 | [Screen Ruler](https://aka.ms/PowerToysOverview_ScreenRuler) | [Shortcut Guide](https://aka.ms/PowerToysOverview_ShortcutGuide) | [Text Extractor](https://aka.ms/PowerToysOverview_TextExtractor) |
 | [Video Conference Mute](https://aka.ms/PowerToysOverview_VideoConference) |
-

@@ -1,15 +1,10 @@
 ---
-layout: post
 title: 山农记忆
 date: 2023-06-20 00:00:00
 updated: 2023-06-20 00:00:00
-# hide: true
-# nav: false
 aplayer: true
 password: sdau
 ---
-
-<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2044858935&auto=1&height=66"></iframe> -->
 
 <meting-js
     id="2044858935"
@@ -19,7 +14,6 @@ password: sdau
     lrc-type="0">
 </meting-js>
 
-
 毕业了，想在这写点什么，却又不知道写些什么，姑且想到哪写到哪吧。
 
 <!-- more -->
@@ -27,6 +21,7 @@ password: sdau
 写，写个屁。大学四年，三年疫情。在泰安四年，没爬过泰山。贴个歌词放几张图完事吧。
 
 ---
+
 <details>
 <summary>坎农-塞西尔</summary>
 <p style="text-align:center">
@@ -257,4 +252,3 @@ til we meet again<br/>
 ![班级合照](/images/sdau/class.jpg)_班级合照_
 
 ![小路](/images/sdau/pathway.jpg)_走了四年的到宿舍的小路_
-

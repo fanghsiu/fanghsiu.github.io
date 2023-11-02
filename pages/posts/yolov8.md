@@ -1,20 +1,15 @@
 ---
-layout: post
 title: 记第一次 YOLOv8 检测训练
-date: 2023-07-05
-updated: 2023-07-05
-# end: false
+date: 2023-07-02
+updated: 2023-07-06
 ---
 
+>[nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)
 
-
-
-[nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)
-
-[NaN tensor values problem for GTX16xx users (no problem on other devices) · Issue #7908 · ultralytics/yolov5](https://github.com/ultralytics/yolov5/issues/7908)
-
+>[NaN tensor values problem for GTX16xx users (no problem on other devices) · Issue #7908 · ultralytics/yolov5](https://github.com/ultralytics/yolov5/issues/7908)
 
 ## 环境准备
+
 YOLOv8 包名为 ultralytics  
 
 <hr>
@@ -102,13 +97,17 @@ thop>=0.1.1  # FLOPs computation
 # roboflow
 ```
 :::
+
 ### 新建环境
+
 推荐使用 conda 新建一个 Python3.8 环境。  
 ```sh
 conda create -n myenv python=3.8 
 ```
 最新的 pytorch 2.0 版本要求 Python 3.8-3.11
+
 ### 安装 Pytorch
+
 查看 cuda 版本
 ```sh
 nvidia-smi
@@ -137,6 +136,7 @@ print(torch.cuda.get_device_name(0))  # 返回设备的名称。默认参数为�
 ```
 
 ### 安装YOLOv8
+
 通过 pip 安装 ultralytics 包以获得最新的 YOLOv8 稳定版本。
 ```sh
 pip install ultralytics
@@ -150,7 +150,9 @@ pip install -e .
 请注意，pip会自动安装所有必需的依赖项。
 
 ## 数据准备
+
 ### 数据格式
+
 我是做的目标检测，就说一下这个模式需要的数据集，其他格式参考官方文档。  
 用官方给的一个 coco8 数据集做例子，方便理解，主要体积只有 1MB。方便实验。下面是他的一个数据结构。
 :::details coco8数据集结构
@@ -299,6 +301,7 @@ names: ['person','bicycle','car','motorcycle','airplane','bus','train','truck','
 ```
 
 ### 数据转换
+
 我用的是 [Global Wheat Detection  | Kaggle](https://www.kaggle.com/c/global-wheat-detection/data) 数据集，之所以不直接用官方给的 GlobalWheat2020 数据集，是因为大小有 7G，而kaggle上的只有 643.57 MB。
 
 D:/gwd/wheat.yaml
@@ -315,6 +318,7 @@ names:
 ```
 
 ## 模型训练
+
 用你自己的数据集进行替换 data 的 coco128.yaml
 ```sh
 # Build a new model from YAML and start training from scratch
@@ -327,3 +331,7 @@ yolo detect train data=coco128.yaml model=yolov8n.pt epochs=100 imgsz=640
 yolo detect train data=coco128.yaml model=yolov8n.yaml pretrained=yolov8n.pt epochs=100 imgsz=640
 ```
 第一次用 yolo，结果 GTX16 系列显卡有大坑，看别人说 NVIDIA GTX16xx 相关 CUDA 包有问题，所以在训练时需要将 amp 设置为 False。
+
+---
+
+不写了，烂尾。

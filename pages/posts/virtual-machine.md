@@ -3,33 +3,32 @@ title: Windows 11 虚拟机
 date: 2023-03-08
 updated: 2023-03-08
 categories: 笔记
-tags: 
-  - ssh
-  - Windows
-# draft:
+tags: [ssh,Windows]
 ---
 
 随便写写
 
 <!-- more -->
 
-
-
 ## 下载地址
+
 [Download Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  
 [下载 VMware Workstation Pro | CN](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)
 
-
 ## 安装问题
+
 >[Win11安装 (Win11 22H2) 不联网 跳过联网 激活 终极教程（解决：无法跳过联网，糟糕你已断开internet连接等问题）_win11联网激活一直提示网络中断_IU_不错哦的博客-CSDN博客](https://blog.csdn.net/chen20170325/article/details/127615233)
 
 ## ssh 连接到 Windows
 
 ### 在 Windows 上安装 OpenSSH 服务器。
+
 <!-- - win7： -->
 - win10：设置 > 应用 > 应用和功能 > 可选功能 > 添加功能 > 搜索 ssh 选择 OpenSSH 服务器安装
 - win11：设置 > 应用 > 可选功能 > 添加可选功能-查看功能 > 搜索 ssh 选择 OpenSSH 服务器安装
+
 ### 启动 sshd 服务
+
 ```bash
 net start sshd
 ```
@@ -37,7 +36,9 @@ net start sshd
 ```bash
 sc config sshd start= auto
 ```
+
 ### 免密设置 cmd 命令
+
 >[使用 Windows 工具或 PowerShell 的适用于 Windows 的 OpenSSH 服务器密钥管理。](https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_keymanagement)
 
 >[ssh_config(5) - OpenBSD manual pages](https://man.openbsd.org/ssh_config)
@@ -152,4 +153,3 @@ echo 公钥内容 >> administrators_authorized_keys # or authorized_keys
 ```bash
 move 公钥文件 administrators_authorized_keys # or authorized_keys
 ```
-

@@ -1,25 +1,15 @@
 ---
-# 标题
 title: 华风夏韵 洛水天依
-# 创建日期
 date: 2021-02-23 00:00:00
-# 更新日期
 updated: 2023-04-17 00:00:00
-# 分类
-# categories: Valaxy 笔记
-# 标签
-# tags: Valaxy
-# 封面
+categories: Vsinger
+tags: [Vsinger]
 # cover: https://gukaifeng.cn/img/bg.jpg
 cover: https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg
-# draft 草稿
-# hide 隐藏
-# top 置顶
 top: 100
-# comment 评论
 ---
 
-天依
+<p style="text-align:center">华风夏韵 洛水天依</p>
 
 <!-- more -->
 

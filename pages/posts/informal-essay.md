@@ -4,13 +4,14 @@ date: 2023-02-28
 updated: 2023-02-28
 categories: 笔记
 tags: [笔记]
-end: false
 ---
 
 记录一些收获
 
 <!-- more -->
+
 ## Some windows commands
+
 查看端口占用
 ```shell
 netstat -ano | findstr port
@@ -48,8 +49,11 @@ taskkill /f /im msedge
 ```bash
 jupyter server --generate-config
 ```
+
 ## Jupyter应用中添加、删除虚拟环境
+
 ### Jupyter中添加虚拟环境步骤：
+
 1. 打开Anaconda Prompt，用conda创建虚拟环境，可指定Python版本：
     ```bash
     conda create -n myenv python=3.6
@@ -71,6 +75,7 @@ jupyter server --generate-config
 5. 运行jupyter notebook或jupyter lab，即可使用刚刚创建的虚拟环境
 
 ### Jupyter中删除虚拟环境步骤：
+
 1. 查看安装了哪些虚拟环境kernel（在base或虚拟环境下运行都可以）：
     ```bash
     jupyter kernelspec list
@@ -81,6 +86,7 @@ jupyter server --generate-config
     ```
 
 ## 查看IP
+
 ```bash
 curl cip.cc
 ```
