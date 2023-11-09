@@ -27,6 +27,14 @@ aplayer: true
 
 [虚拟歌手 | Vsinger 虚拟歌手官网 — 洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯、墨清弦](https://vsinger.com/vsinger)
 
-<hr>
+---
 
 <iframe src="https://player.bilibili.com/player.html?aid=291530455&bvid=BV1Hf4y1L7MF&cid=368390647&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="420"> </iframe>
+
+---
+
+<iframe src="https://player.bilibili.com/player.html?aid=385844016&bvid=BV1dZ4y1Y7bt&cid=771025783&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="420"> </iframe>
+
+---
+
+<iframe src="https://player.bilibili.com/player.html?aid=955750433&bvid=BV19W4y1f7hz&cid=1193618405&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="420"> </iframe>
