@@ -3,7 +3,7 @@ title: Windows 11 虚拟机
 date: 2023-03-08
 updated: 2023-03-08
 categories: 笔记
-tags: [ssh,Windows]
+tags: [ssh, Windows]
 ---
 
 随便写写
