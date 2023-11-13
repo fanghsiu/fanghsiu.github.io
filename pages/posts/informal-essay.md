@@ -10,6 +10,45 @@ tags: [笔记]
 
 <!-- more -->
 
+## Windows 系统更改 VsCode 扩展安装位置
+
+```cmd
+mklink /d C:\Users\用户名\.vscode\ 扩展绝对路径（如 D:\CodeExtensions\）
+``` 
+带尾号 `\`，用管理员模式，不然权限不够。
+
+## Windows 开机启动
+
+### 启动路径
+
+用户启动路径：
+Windows+R 打开运行，输入 `shell:startup` 打开下列路径
+```txt
+C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+
+系统启动路径：
+```txt
+C:\ProgramData\Microsoft\Windows\StartMenu\Programs\StartUp
+```
+
+### 注册表方式
+
+用户启动项路径
+```txt
+计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+```
+
+系统启动项路径1
+```txt
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+```
+
+系统启动项路径2
+```txt
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+```
+
 ## Some windows commands
 
 查看端口占用
