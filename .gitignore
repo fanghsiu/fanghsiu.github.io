@@ -1,7 +1,9 @@
 # valaxy
-fuse-list.json
+
+valaxy-fuse-list.json
 
 # vite-ssg
+
 .vite-ssg-dist
 .vite-ssg-temp
 
@@ -16,9 +18,6 @@ node_modules
 *.log
 
 components.d.ts
-
-# valaxy
-public/valaxy-fuse-list.json
 
 # valaxy
 public/valaxy-fuse-list.json
