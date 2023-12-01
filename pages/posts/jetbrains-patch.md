@@ -44,6 +44,8 @@ PREFIX,https://account.jetbrains.com/lservice/rpc/validateKey.action
 
 配置 power.conf 时, 用激活码生成代码的第一个输出值添加到新一行就好.
 
+`pycryptodome` `cryptography`
+
 :::details 证书生成代码
 ```python
 import datetime
