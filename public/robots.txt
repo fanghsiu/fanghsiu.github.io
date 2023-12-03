@@ -2,6 +2,7 @@
 
 User-agent: *
 
-Disallow: 
+Disallow: /images/QQ.jpg
+Disallow: /images/WeChat.png
 
 Sitemap: https://www.fanghsiu.top/sitemap.xml
