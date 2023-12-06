@@ -21,4 +21,5 @@ nav: false  # 是否显示前一篇、后一篇导航
 
 ## 📬 联系我呀
 
-**邮箱📪：<a target="_blank" onclick="window.open('mailto:fanghsiu@foxmail.com')">fanghsiu@foxmail.com</a>**
+**邮箱📪：**<a target="_blank" href='mailto:fanghsiu@foxmail.com'>
+<strong>fanghsiu@foxmail.com</strong></a>
