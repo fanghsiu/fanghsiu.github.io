@@ -32,18 +32,18 @@ export default defineSiteConfig({
       icon: 'i-ri-rss-line',
       color: 'orange',
     },
-    {
-      name: 'QQ',
-      link: '/images/QQ.jpg',
-      icon: 'i-ri-qq-line',
-      color: '#12B7F5',
-    },
-    {
-      name: '微信',
-      link: '/images/WeChat.png',
-      icon: 'i-ri-wechat-2-line',
-      color: '#1AAD19',
-    },
+    // {
+    //   name: 'QQ',
+    //   link: '/images/QQ.jpg',
+    //   icon: 'i-ri-qq-line',
+    //   color: '#12B7F5',
+    // },
+    // {
+    //   name: '微信',
+    //   link: '/images/WeChat.png',
+    //   icon: 'i-ri-wechat-2-line',
+    //   color: '#1AAD19',
+    // },
     {
       name: 'GitHub',
       link: 'https://github.com/fanghsiu',
