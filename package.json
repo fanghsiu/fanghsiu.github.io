@@ -10,8 +10,7 @@
     "dev": "valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview",
-    "fuse": "valaxy fuse",
-    "new": "valaxy new"
+    "fuse": "valaxy fuse"
   },
   "dependencies": {
     "valaxy": "^0.15.14",

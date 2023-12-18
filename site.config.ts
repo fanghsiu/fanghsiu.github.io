@@ -3,7 +3,7 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
 
   url: 'https://www.fanghsiu.top',
-  
+
   lang: 'zh-CN',
 
   title: '方脩的随笔',
@@ -18,7 +18,7 @@ export default defineSiteConfig({
     link: 'https://www.fanghsiu.top',
     avatar: '/images/avatar.png',
     status: {
-      emoji: '🌏',
+      // emoji: '🌏',
       message: 'Chase'
     }
   },

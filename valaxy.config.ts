@@ -76,7 +76,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
-  
+
   addons: [
     addonWaline({
       serverURL: 'https://waline.fanghsiu.top',
