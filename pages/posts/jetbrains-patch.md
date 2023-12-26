@@ -1,7 +1,9 @@
 ---
 layout: post
 title: JetBrains Patch
-date: 2023-11-16 15:49:12
+date: 2023-11-16
+updated: 2023-11-17
+categories: [Jetbrains]
 tags: [Jetbrains]
 ---
 
