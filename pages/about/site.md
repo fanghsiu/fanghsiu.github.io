@@ -4,6 +4,7 @@ date: 2002-05-25 00:00:00
 updated: 2002-05-25 00:00:00
 nav: false  # 是否显示前一篇、后一篇导航
 aplayer: true
+time_warning: false
 ---
 
 <meting-js

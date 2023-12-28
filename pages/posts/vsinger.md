@@ -27,10 +27,6 @@ aplayer: true
 
 [虚拟歌手 | Vsinger 虚拟歌手官网 — 洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯、墨清弦](https://vsinger.com/vsinger)
 
-<!-- valaxy-encrypt-start:lty -->
-![](https://cdn.fanghsiu.top/gh/fanghsiu/cdn@main/img/1702809113277.webp)
-<!-- valaxy-encrypt-end -->
-
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=291530455&bvid=BV1Hf4y1L7MF&cid=368390647&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="420"> </iframe>

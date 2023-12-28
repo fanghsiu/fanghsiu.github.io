@@ -6,7 +6,7 @@ categories: Python
 tags: [python, selenium]
 ---
 
-<p style="text-align:center">人生苦短，我用 Python。</p>
+<p style="text-align:center;font-size:24px">人生苦短,我用 Python!</p>
 
 <!-- more -->
 
