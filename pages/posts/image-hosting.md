@@ -26,10 +26,10 @@ https://imgse.com/
 
 在 jsdelivr 备案还在的时候还是很好的,现在已经不太好用了.不过可以用 cloudflare workers 做反代,大图片挺慢的,压缩一下还好.
 
-介绍个国内镜像站 https://jsd.cdn.zzko.cn
-
+介绍个国内镜像站 https://jsd.cdn.zzko.cn<br>
+只需将 https://cdn.jsdelivr.net 修改为 境内站: https://jsd.cdn.zzko.cn 国际站https://cdn.jsdelivr.us
 :::details 镜像站
-![](https://jsd.cdn.zzko.cn/gh/fanghsiu/cdn@main/img/lty.jpg)
+![](https://cdn.jsdelivr.us/gh/fanghsiu/cdn@main/img/1703159046212.jpg)
 :::
 [镜像站使用规定-站务公告论坛-镜像站交流-jsdelivr镜像站](https://jsd.cdn.zzko.cn/forum-post/67.html)
 
