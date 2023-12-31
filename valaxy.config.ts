@@ -80,7 +80,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonWaline({
       serverURL: 'https://waline.fanghsiu.top',
-      comment: false
+      emoji: ['//npm.onmicrosoft.cn/@waline/emojis@1.2.0/alus'],
     })
   ]
 })
