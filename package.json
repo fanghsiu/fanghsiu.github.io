@@ -13,9 +13,9 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
-    "valaxy": "^0.17.2",
+    "valaxy": "^0.17.3",
     "valaxy-addon-waline": "^0.1.1",
-    "valaxy-theme-yun": "^0.17.2"
+    "valaxy-theme-yun": "^0.17.3"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
