@@ -11,9 +11,10 @@ const safelist = [
  * User Config
  */
 export default defineValaxyConfig<UserThemeConfig>({
-  // site config see site.config.ts
-  theme: 'yun',
+  // site config see site.config.ts or write in siteConfig
+  siteConfig: {},
 
+  theme: 'yun',
   themeConfig: {
     banner: {
       enable: true,
