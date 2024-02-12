@@ -29,7 +29,7 @@ https://imgse.com/
 介绍个国内镜像站 https://jsd.cdn.zzko.cn<br>
 只需将 https://cdn.jsdelivr.net 修改为 境内站: https://jsd.cdn.zzko.cn 国际站https://cdn.jsdelivr.us
 :::details 镜像站
-![](https://cdn.jsdelivr.us/gh/fanghsiu/cdn@main/img/1703159046212.jpg)
+![](https://jsd.cdn.zzko.cn/gh/fanghsiu/cdn@main/img/1703159046212.jpg)
 :::
 [镜像站使用规定-站务公告论坛-镜像站交流-jsdelivr镜像站](https://jsd.cdn.zzko.cn/forum-post/67.html)
 
