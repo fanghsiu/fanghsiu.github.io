@@ -18,7 +18,7 @@ export default defineSiteConfig({
     link: 'https://www.fanghsiu.top',
     avatar: '/images/avatar.png',
     status: {
-      // emoji: '🌏',
+      emoji: '🌐',
       message: 'Chase'
     }
   },

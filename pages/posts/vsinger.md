@@ -1,5 +1,5 @@
 ---
-title: 华风夏韵 洛水天依
+title: 天一生水 地六成之
 date: 2012-07-12 00:00:00
 updated: 2012-07-12 00:00:00
 categories: [Vsinger, 洛天依]
@@ -10,7 +10,7 @@ top: 712
 aplayer: true
 ---
 
-<p style="text-align:center;color:#66CCFF;font-size:32px">华风夏韵 洛水天依</p>
+<p style="text-align:center;color:#66CCFF;font-size:32px;font-family:lisu">华风夏韵 洛水天依</p>
 
 <!-- more -->
 
