@@ -19,14 +19,14 @@ node_modules
 
 components.d.ts
 
-# valaxy
-public/valaxy-fuse-list.json
-    
 # valaxy rss
 public/feed.xml
 
 # valaxy rss
-public/atom.xml
+public/feed.json
 
 # valaxy rss
-public/feed.json
+public/atom.xml
+
+# valaxy fuse
+public/valaxy-fuse-list.json
