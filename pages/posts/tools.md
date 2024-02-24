@@ -1,12 +1,28 @@
 ---
-title: Windows工具
+title: Android & Windows 工具
 date: 2023-10-20
 updated: 2023-10-20
-tags: [Windows]
+tags: [Android, Windows]
 end: false
 ---
 
-## Microsoft Activation Scripts (MAS)
+## Android
+### MT管理器
+[MT管理器](https://mt2.cn/)<br>
+Android 平台文件管理 & 逆向修改神器
+
+### 天鉴 
+[天鉴 - 官方网站](https://www.die.lu/)
+
+### 闪指连点器
+[2022闪指连点器v3.1.3老旧历史版本安装包官方免费下载_豌豆荚](https://www.wandoujia.com/apps/8263424/history_v32)<br>
+最后一个无广告版本，后面都有开屏广告。
+
+---
+
+## Windows
+### 微软激活脚本 {lang=zh-cn}
+### Microsoft Activation Scripts (MAS) {lang=en}
 
 https://massgrave.dev/
 
@@ -14,16 +30,16 @@ https://github.com/massgravel/Microsoft-Activation-Scripts
 
 A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
 
-### Download / How to use it?
-
-#### Method 1 - PowerShell (Recommended)
+#### 下载 / 如何使用？ {lang=zh-cn}
+#### Download / How to use it? {lang=en}
+##### Method 1 - PowerShell (Recommended)
 
 - On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
 - Copy-paste the below code and press enter `irm https://massgrave.dev/get | iex`
 - You will see the activation options, and follow onscreen instructions.
 - That's all.
 
-#### Method 2 - Traditional
+##### Method 2 - Traditional
 
 - Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)
 - Right-click on the downloaded zip file and extract
@@ -32,7 +48,8 @@ A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activatio
 - You will see the activation options, and follow onscreen instructions.
 - That's all.
 
-## IDM Activation Script (IAS)
+### IDM激活脚本 {lang=zh-cn}
+### IDM Activation Script (IAS) {lang=en}
 
 https://massgrave.dev/idm-activation-script.html
 
@@ -40,12 +57,13 @@ https://github.com/WindowsAddict/IDM-Activation-Script
 
 An open source tool to activate and reset trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
-### Download / How to use it?
+#### 下载 / 如何使用？ {lang=zh-cn}
+#### Download / How to use it? {lang=en}
 
 - First fresh install [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
 - After that follow below steps to activate it.
 
-#### Method 1 - PowerShell
+##### Method 1 - PowerShell
 
 (Recommended)
 
@@ -54,7 +72,7 @@ An open source tool to activate and reset trial of [Internet Download Manager](h
 - You will see the activation options, and follow onscreen instructions.
 - That's all.
 
-#### Method 2 - Traditional
+##### Method 2 - Traditional
 
 - Download the file from [here](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip)
 - Right click on the downloaded zip file and extract
@@ -62,7 +80,7 @@ An open source tool to activate and reset trial of [Internet Download Manager](h
 - You will see the activation options, and follow onscreen instructions.
 - That's all.
 
-## Microsoft PowerToys
+### Microsoft PowerToys
 
 https://github.com/microsoft/PowerToys
 

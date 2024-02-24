@@ -1,17 +1,18 @@
 [
     {
         "name": "洛天依",
-        "from":"Virtual singer",
-        "avatar":"/images/avatar.png"
+        "avatar":"/images/avatar.png",
+        "from":"Virtual singer"
     },
     {
         "name": "初音未来",
-        "from":"Virtual singer",
-        "avatar":"./miku.jpg"
+        "avatar":"./miku.png",
+        "from":"Virtual singer"
     },
     {
         "name": "月下誓约·予爱以心",
-        "from": "bh3",
-        "avatar": "./yuexia.png"
+        "url": "https://zh.moegirl.org.cn/德丽莎·阿波卡利斯(崩坏3)/月下誓约·予爱以心",
+        "avatar": "./LunarVow.png",
+        "from": "bh3"
     }
 ]

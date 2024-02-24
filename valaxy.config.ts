@@ -18,7 +18,8 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '永恒轮回的不沉之船',
+      // title: '永恒轮回的不沉之船',
+      title: ['天一生水','地六成之'],
       cloud: {
         enable: true,
       },

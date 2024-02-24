@@ -1,10 +1,10 @@
 [
     {
-        "url": "https://www.bilibili.com/festival/lty10th",
-        "avatar": "/images/10th.jpg",
-        "name": "洛天依十周年官方演唱会",
-        "blog": "洛天依十周年",
-        "desc": "洛天依十周年官方演唱会",
+        "url": "https://cnlty.github.io",
+        "avatar": "https://avatars.githubusercontent.com/u/79364623",
+        "name": "惟依",
+        "blog": "惟依",
+        "desc": "惟一的依",
         "color": "#66ccff"
     },
     {
@@ -16,11 +16,11 @@
         "color": "#66ccff"
     },
     {
-        "url": "https://v2.vuepress.vuejs.org/zh/",
-        "avatar": "https://v2.vuepress.vuejs.org/images/hero.png",
-        "name": "VuePress",
-        "blog": "首页 | VuePress",
-        "desc": "Vue 驱动的静态网站生成器",
+        "url": "https://www.bilibili.com/festival/lty10th",
+        "avatar": "/images/10th.jpg",
+        "name": "洛天依十周年官方演唱会",
+        "blog": "洛天依十周年",
+        "desc": "洛天依十周年官方演唱会",
         "color": "#66ccff"
     },
     {
@@ -29,6 +29,14 @@
         "name": "云游君",
         "blog": "云游君的小站",
         "desc": "希望能成为一个有趣的人",
+        "color": "#66ccff"
+    },
+    {
+        "url": "https://v2.vuepress.vuejs.org/zh/",
+        "avatar": "https://v2.vuepress.vuejs.org/images/hero.png",
+        "name": "VuePress",
+        "blog": "首页 | VuePress",
+        "desc": "Vue 驱动的静态网站生成器",
         "color": "#66ccff"
     }
 ]
