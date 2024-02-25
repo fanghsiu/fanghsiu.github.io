@@ -11,8 +11,8 @@ end: false
 [MT管理器](https://mt2.cn/)<br>
 Android 平台文件管理 & 逆向修改神器
 
-### 天鉴 
-[天鉴 - 官方网站](https://www.die.lu/)
+### 元萝卜 
+[元萝卜 - 官方网站](https://www.die.lu/)
 
 ### 闪指连点器
 [2022闪指连点器v3.1.3老旧历史版本安装包官方免费下载_豌豆荚](https://www.wandoujia.com/apps/8263424/history_v32)<br>
@@ -48,7 +48,7 @@ A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activatio
 - You will see the activation options, and follow onscreen instructions.
 - That's all.
 
-### IDM激活脚本 {lang=zh-cn}
+### IDM 激活脚本 {lang=zh-cn}
 ### IDM Activation Script (IAS) {lang=en}
 
 https://massgrave.dev/idm-activation-script.html

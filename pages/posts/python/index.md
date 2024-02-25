@@ -1,7 +1,7 @@
 ---
 title: Python
-date: 2023-11-09 00:00:00
-updated: 2023-11-09 00:00:00
+date: 2023-11-09
+updated: 2023-11-09
 categories: Python
 tags: [python, selenium]
 ---

@@ -7,16 +7,16 @@ categories: [Jetbrains]
 tags: [Jetbrains]
 ---
 
-自己生成根证书签名,并生成注册码配合 ja-netfilter 注册 Jetbrains 全家桶.
+自己生成根证书签名,并生成激活码配合 ja-netfilter 激活 Jetbrains 全家桶.
 
 <!-- more -->
 ja-netfilter https://gitee.com/ja-netfilter/ja-netfilter
 
 ## ja-netfilter 配置
 
-自定义 IDE 虚拟机选项, 以 pycharm 为例, 文件路径为 C:\Users\username\AppData\Roaming\JetBrains\PyCharm2023.2\pycharm64.exe.vmoptions
+自定义 IDE 虚拟机选项, 以 Windows 平台 pycharm2023.2.x 版本为例, 文件路径为 %AppData%\JetBrains\PyCharm2023.2\pycharm64.exe.vmoptions 或软件安装位置下 pycharm64.exe.vmoptions
 
-将路径替换为你自己的路径 D:\\Documents\\ja-netfilter\\ja-netfilter.jar .不要有中文和空格,不要使用单反斜杠 \ .
+将下列配置中的路径 `D:\\Documents\\ja-netfilter\\ja-netfilter.jar` 替换为你自己的路径写入 `pycharm64.exe.vmoptions`.不要有中文和空格,不要使用单反斜杠 \ .
 
 ```
 -javaagent:D:\\Documents\\ja-netfilter\\ja-netfilter.jar
@@ -46,7 +46,10 @@ PREFIX,https://account.jetbrains.com/lservice/rpc/validateKey.action
 
 配置 power.conf 时, 用激活码生成代码的第一个输出值添加到新一行就好.
 
-`pycryptodome` `cryptography`
+```bash
+# 使用清华镜像安装必要 python 包
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ pycryptodome cryptography
+```
 
 :::details 证书生成代码
 ```python
@@ -76,7 +79,6 @@ builder = builder.subject_name(x509.Name([
     x509.NameAttribute(NameOID.COMMON_NAME, 'LTY-from-2012-07-12'),
 ]))
 builder = builder.issuer_name(x509.Name([
-    # x509.NameAttribute(NameOID.COMMON_NAME, 'LTY CA'),
     x509.NameAttribute(NameOID.COMMON_NAME, 'JetProfile CA'),
 ]))
 builder = builder.not_valid_before(yesterday)
@@ -181,6 +183,8 @@ with open('ca.key') as prifile:
     print(result)
 ```
 :::
+
+power.conf 配置完成时,就可以使用激活码激活了.
 
 >**参考:**
 >

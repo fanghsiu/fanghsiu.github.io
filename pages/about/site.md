@@ -52,7 +52,7 @@ time_warning: false
 在 Freenom 上申请了一个免费域名 fanghsiu.tk ，使用 Cloudflare 进行 DNS 解析。
 
 ### 2022-07-01 fanghsiu.top
-在 NameSilo 趁活动花费 0.99$ 折合 6.67￥ 买下了 fanghsiu.top 这个域名，也是使用 Cloudflare 进行 DNS 解析。（居然没识别变蓝...）
+在 NameSilo 趁活动花费 0.99$ 折合 6.67￥ 买下了 fanghsiu.top 这个域名，也是使用 Cloudflare 进行 DNS 解析。
 
 </details>
 

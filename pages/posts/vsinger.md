@@ -1,7 +1,7 @@
 ---
 title: 天一生水 地六成之
-date: 2012-07-12 00:00:00
-updated: 2012-07-12 00:00:00
+date: 2012-07-12
+updated: 2012-07-12
 categories: [Vsinger, 洛天依]
 tags: [Vsinger, 洛天依]
 # cover: https://gukaifeng.cn/img/bg.jpg

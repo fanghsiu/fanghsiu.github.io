@@ -22,5 +22,4 @@ time_warning: false
 
 ## 📬 联系我呀
 
-**邮箱📪：**<a target="_blank" href='mailto:fanghsiu@foxmail.com'>
-<strong>fanghsiu@foxmail.com</strong></a>
+**邮箱📪：**<a href='mailto:fanghsiu@foxmail.com'><strong>fanghsiu@foxmail.com</strong></a>
