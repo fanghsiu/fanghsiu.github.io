@@ -7,94 +7,75 @@ end: false
 ---
 
 ## Android
+
 ### MT管理器
-[MT管理器](https://mt2.cn/)<br>
+[MT管理器](https://mt2.cn/)  
 Android 平台文件管理 & 逆向修改神器
 
 ### 元萝卜 
 [元萝卜 - 官方网站](https://www.die.lu/)
 
 ### 闪指连点器
-[2022闪指连点器v3.1.3老旧历史版本安装包官方免费下载_豌豆荚](https://www.wandoujia.com/apps/8263424/history_v32)<br>
+[2022闪指连点器v3.1.3老旧历史版本安装包官方免费下载_豌豆荚](https://www.wandoujia.com/apps/8263424/history_v32)  
 最后一个无广告版本，后面都有开屏广告。
 
 ---
 
 ## Windows
-### 微软激活脚本 {lang=zh-cn}
-### Microsoft Activation Scripts (MAS) {lang=en}
 
-https://massgrave.dev/
+### 哔哩哔哩下载器
+一款命令行式哔哩哔哩下载器.  
+https://github.com/nilaoda/BBDown
 
-https://github.com/massgravel/Microsoft-Activation-Scripts
+### 微软激活脚本
+https://massgrave.dev/  
+https://github.com/massgravel/Microsoft-Activation-Scripts  
+使用HWID / Ohook /KMS 38/ Online KMS激活方法的Windows和Office激活器，专注于开源代码和更少的防病毒检测
 
-A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
+#### 下载 / 如何使用？
+##### 方法 1 - PowerShell（推荐）
+- 右键单击Windows开始菜单并选择PowerShell或终端（非CMD）。
+- 复制粘贴下面的代码，然后按回车键
+    ```PowerShell
+    irm https://massgrave.dev/get | iex
+    ```
+- 您将看到激活选项，并按照说明进行操作。
+- 仅此而已
 
-#### 下载 / 如何使用？ {lang=zh-cn}
-#### Download / How to use it? {lang=en}
-##### Method 1 - PowerShell (Recommended)
+##### 方法 2 -传统
+- 从[GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)或[Bitbucket](https://bitbucket.org/WindowsAddict/microsoft-activation-scripts/get/master.zip)下载文件
+- 右键单击下载的zip文件并解压缩
+- 在解压缩的文件夹中，找到名为`All-In-One-Version`的文件夹
+- 运行名为`MAS_AIO.cmd`的文件
+- 您将看到激活选项，并按照说明进行操作。
+- 仅此而已
 
-- On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
-- Copy-paste the below code and press enter `irm https://massgrave.dev/get | iex`
-- You will see the activation options, and follow onscreen instructions.
-- That's all.
+### IDM 激活脚本
+https://massgrave.dev/idm-activation-script.html  
+https://github.com/WindowsAddict/IDM-Activation-Script  
+一个开源工具，用于激活和重置 [Internet Download Manager](https://www.internetdownloadmanager.com/) 的试用版
 
-##### Method 2 - Traditional
+#### 下载 / 如何使用？
+- 首次全新安装 [Internet Download Manager](https://www.internetdownloadmanager.com/)（互联网下载管理器）。如果之前有任何破解补丁/修补程序，请确保它们已被移除/卸载。
+- 然后按照下面的步骤激活它。
 
-- Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)
-- Right-click on the downloaded zip file and extract
-- In the extracted folder, find the folder named `All-In-One-Version`
-- Run the file named `MAS_AIO.cmd`
-- You will see the activation options, and follow onscreen instructions.
-- That's all.
+##### 方法 1 - PowerShell（推荐）
+- 右键单击Windows开始菜单并选择PowerShell或终端（非CMD）。
+- 复制粘贴下面的代码，然后按回车键
+    ```PowerShell
+    irm https://massgrave.dev/ias | iex
+    ```
+- 您将看到激活选项，并按照说明进行操作。
+- 仅此而已
 
-### IDM 激活脚本 {lang=zh-cn}
-### IDM Activation Script (IAS) {lang=en}
-
-https://massgrave.dev/idm-activation-script.html
-
-https://github.com/WindowsAddict/IDM-Activation-Script
-
-An open source tool to activate and reset trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
-
-#### 下载 / 如何使用？ {lang=zh-cn}
-#### Download / How to use it? {lang=en}
-
-- First fresh install [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
-- After that follow below steps to activate it.
-
-##### Method 1 - PowerShell
-
-(Recommended)
-
-- On Windows 8.1/10/11, right-click on the windows start menu and select PowerShell or Terminal (Not CMD).
-- Copy-paste the below code and press enter `irm https://massgrave.dev/ias | iex`
-- You will see the activation options, and follow onscreen instructions.
-- That's all.
-
-##### Method 2 - Traditional
-
-- Download the file from [here](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip)
-- Right click on the downloaded zip file and extract
-- In the extracted folder, run the file named `IAS.cmd`
-- You will see the activation options, and follow onscreen instructions.
-- That's all.
+##### 方法 2 -传统
+- 从[GitHub](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip)或[Bitbucket](https://bitbucket.org/WindowsAddict/idm-activation-script/get/main.zip)下载文件
+- 右键单击下载的zip文件并解压缩
+- 在解压缩的文件夹中，运行名为`IAS.cmd`的文件
+- 您将看到激活选项，并按照说明进行操作。
+- 仅此而已
 
 ### Microsoft PowerToys
-
-https://github.com/microsoft/PowerToys
-
-Windows system utilities to maximize productivity
-
-Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. For more info on [PowerToys overviews and how to use the utilities](https://learn.microsoft.com/zh-cn/windows/powertoys), or any other tools and resources for [Windows development environments](https://learn.microsoft.com/windows/dev-environment/overview), head over to [learn.microsoft.com](https://learn.microsoft.com/zh-cn/windows/powertoys)!
-
-|              | Current utilities: |              |
-|--------------|--------------------|--------------|
-| [Always on Top](https://aka.ms/PowerToysOverview_AoT) | [PowerToys Awake](https://aka.ms/PowerToysOverview_Awake) | [Color Picker](https://aka.ms/PowerToysOverview_ColorPicker) |
-| [Crop And Lock](https://aka.ms/PowerToysOverview_CropAndLock) | [FancyZones](https://aka.ms/PowerToysOverview_FancyZones) | [File Explorer Add-ons](https://aka.ms/PowerToysOverview_FileExplorerAddOns) |
-| [File Locksmith](https://aka.ms/PowerToysOverview_FileLocksmith) | [Hosts File Editor](https://aka.ms/PowerToysOverview_HostsFileEditor) | [Image Resizer](https://aka.ms/PowerToysOverview_ImageResizer) |
-| [Keyboard Manager](https://aka.ms/PowerToysOverview_KeyboardManager) | [Mouse utilities](https://aka.ms/PowerToysOverview_MouseUtilities) | [Mouse Without Borders](https://aka.ms/PowerToysOverview_MouseWithoutBorders) |
-| [Peek](https://aka.ms/PowerToysOverview_Peek) | [Paste as Plain Text](https://aka.ms/PowerToysOverview_PastePlain) | [PowerRename](https://aka.ms/PowerToysOverview_PowerRename) |
-| [PowerToys Run](https://aka.ms/PowerToysOverview_PowerToysRun) | [Quick Accent](https://aka.ms/PowerToysOverview_QuickAccent) | [Registry Preview](https://aka.ms/PowerToysOverview_RegistryPreview) |
-| [Screen Ruler](https://aka.ms/PowerToysOverview_ScreenRuler) | [Shortcut Guide](https://aka.ms/PowerToysOverview_ShortcutGuide) | [Text Extractor](https://aka.ms/PowerToysOverview_TextExtractor) |
-| [Video Conference Mute](https://aka.ms/PowerToysOverview_VideoConference) |
+https://github.com/microsoft/PowerToys  
+Windows系统实用程序可最大限度地提高工作效率  
+Microsoft PowerToys是一组实用程序，可供高级用户调整和简化其Windows体验，从而提高工作效率。有关[PowerToys概述以及如何使用这些实用程序](https://learn.microsoft.com/zh-cn/windows/powertoys)或[Windows开发环境](https://learn.microsoft.com/windows/dev-environment/overview)的任何其他工具和资源的更多信息，请访问[learn.microsoft.com](https://learn.microsoft.com/zh-cn/windows/powertoys)！
