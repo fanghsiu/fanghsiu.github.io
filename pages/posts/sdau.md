@@ -7,16 +7,12 @@ password: sdau
 ---
 
 <meting-js
-    id="2044858935"
     server="netease"
     type="song"
-    theme="#66CCFF"
-    lrc-type="0">
-</meting-js>
+    id="2044858935"
+></meting-js>
 
 毕业了，想在这写点什么，却又不知道写些什么，姑且想到哪写到哪吧。
-
-<!-- more -->
 
 写，写个屁。大学四年，三年疫情。在泰安四年，没爬过泰山。贴个歌词放几张图完事吧。
 
