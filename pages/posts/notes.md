@@ -11,23 +11,21 @@ tags: [笔记]
 <!-- more -->
 
 ## Windows 系统更改 VsCode 扩展安装位置
-
+CMD 管理员模式运行，自行替换后面路径。
 ```cmd
-mklink /d C:\Users\用户名\.vscode\ 扩展绝对路径（如 D:\CodeExtensions\）
+mklink /d %userprofile%\.vscode D:\vsc\CodeExtensions
+mklink /d %appdata%\Code D:\vsc\Code
 ``` 
-带尾号 `\`，用管理员模式，不然权限不够。
 
 ## Windows 开机启动
 
 ### 启动路径
 
-用户启动路径：
-Windows+R 打开运行，输入 `shell:startup` 打开下列路径
+用户启动路径：Windows+R 打开运行，输入 `shell:startup` 打开下列路径
 ```txt
 C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ```
-
-系统启动路径：
+系统启动路径：Windows+R 打开运行，输入 `shell:common startup` 打开下列路径
 ```txt
 C:\ProgramData\Microsoft\Windows\StartMenu\Programs\StartUp
 ```
