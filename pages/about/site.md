@@ -49,7 +49,8 @@ time_warning: false
   因为主题作者停止维护，所以回来用Hexo，也是这是发现了 hexo-theme-yun 这个主题，也是侧边栏，功能丰富。
 
 ### 2022-05-24 fanghsiu.tk
-在 Freenom 上申请了一个免费域名 fanghsiu.tk ，使用 Cloudflare 进行 DNS 解析。
+在 Freenom 上申请了一个免费域名 fanghsiu.tk ，使用 Cloudflare 进行 DNS 解析。  
+2024.2.14 被 freenom 停止服务，可惜了。
 
 ### 2022-07-01 fanghsiu.top
 在 NameSilo 趁活动花费 0.99$ 折合 6.67￥ 买下了 fanghsiu.top 这个域名，也是使用 Cloudflare 进行 DNS 解析。
