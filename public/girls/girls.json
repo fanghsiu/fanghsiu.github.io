@@ -6,13 +6,13 @@
     },
     {
         "name": "初音未来",
-        "avatar":"./miku.png",
+        "avatar":"/girls/miku.png",
         "from":"Virtual singer"
     },
     {
         "name": "月下誓约·予爱以心",
         "url": "https://zh.moegirl.org.cn/德丽莎·阿波卡利斯(崩坏3)/月下誓约·予爱以心",
-        "avatar": "./LunarVow.png",
+        "avatar": "/girls/LunarVow.png",
         "from": "bh3"
     }
 ]
