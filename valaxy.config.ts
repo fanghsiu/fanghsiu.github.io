@@ -45,14 +45,14 @@ export default defineValaxyConfig<UserThemeConfig>({
     pages: [
       {
         name: '友人帐',
-        url: '/links/',
+        url: '/links',
         // icon: 'i-ri-genderless-line',
         icon: 'i-ri-user-star-line',
         color: 'dodgerblue',
       },
       {
         name: '铜雀台',
-        url: '/girls/',
+        url: '/girls',
         // icon: 'i-ri-women-line',
         icon: 'i-ri-user-heart-line',
         color: 'hotpink',
