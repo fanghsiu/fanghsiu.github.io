@@ -6,6 +6,17 @@ updated: 2023-12-28
 
 <!-- more -->
 
+## github + github pages 
+单纯的Github直链很慢，利用GitHub自带的pages部署后速度会快上不少。
+:::details 583KB https://fanghsiu.github.io/cdn/img/1703159046212.jpg
+![](https://fanghsiu.github.io/cdn/img/1703159046212.jpg)
+:::
+
+## github + vercel
+部署到vercel，需要一个域名国内才能访问，你也可以选择netlify。比github pages更快。
+:::details 583KB https://cdn.fanghsiu.top/img/1703159046212.jpg
+![](https://cdn.fanghsiu.top/img/1703159046212.jpg)
+:::
 ## 路过图床
 
 https://imgse.com/
@@ -20,7 +31,7 @@ https://imgse.com/
 除违反TOS之外, 我们不会删除图片, 即使是多年无任何流量的图片也不会删除.<br>
 使用云存储技术, 数据实时本地和异地多重备份, 保证您的数据安全.
 
-[服务条款 - 路过图床](https://imgse.com/page/tos)<font color='red'>不让放卡通漫画(包括ACG/二次元/动漫游戏等)。</font>
+[服务条款 - 路过图床](https://imgse.com/page/tos)<div color='red'>不让放卡通漫画(包括ACG/二次元/动漫游戏等)。</div>
 
 ## github + jsdelivr
 
@@ -28,7 +39,7 @@ https://imgse.com/
 
 介绍个国内镜像站 https://jsd.cdn.zzko.cn<br>
 只需将 https://cdn.jsdelivr.net 修改为 境内站: https://jsd.cdn.zzko.cn 国际站https://cdn.jsdelivr.us
-:::details 镜像站
+:::details 583KB https://jsd.cdn.zzko.cn/gh/fanghsiu/cdn@main/img/1703159046212.jpg
 ![](https://jsd.cdn.zzko.cn/gh/fanghsiu/cdn@main/img/1703159046212.jpg)
 :::
 [镜像站使用规定-站务公告论坛-镜像站交流-jsdelivr镜像站](https://jsd.cdn.zzko.cn/forum-post/67.html)
@@ -41,6 +52,6 @@ https://imgse.com/
 
 在微信上看到的,试了一下,真的可以. 不过只有 10G 作为图床够用了. 界面简洁,网页上传复制直链,挺不错的.
 
-:::details 超星直链
+:::details 3.56MB https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png
 ![](https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png)
 :::
