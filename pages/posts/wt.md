@@ -2,6 +2,7 @@
 title: Windows terminal 使用
 date: 2024-02-03
 update: 2024-02-03
+cover: https://p.ananas.chaoxing.com/star3/origin/824ed4775fe6a9cf546166eb4c69534b.png
 ---
 
 

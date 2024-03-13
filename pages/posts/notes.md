@@ -4,6 +4,7 @@ date: 2023-02-28
 updated: 2023-02-28
 categories: 笔记
 tags: [笔记]
+cover: https://p.ananas.chaoxing.com/star3/origin/69e655e578808f07dde406824082969f.png
 ---
 
 记录一些收获
