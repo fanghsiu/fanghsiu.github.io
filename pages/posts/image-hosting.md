@@ -2,6 +2,8 @@
 title: 关于图床
 date: 2023-12-28
 updated: 2023-12-28
+tags: 
+  - blog
 ---
 
 <!-- more -->
@@ -55,3 +57,5 @@ https://imgse.com/
 :::details 3.56MB https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png
 ![](https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png)
 :::
+
+删除图片后,图片链接依旧可以使用.eg: https://p.ananas.chaoxing.com/star3/origin/4075d4b59a9884847399d4ab8e8db9e1.png
