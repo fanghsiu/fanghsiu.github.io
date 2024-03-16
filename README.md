@@ -1,3 +1,3 @@
-# Preview
+# Site
 
-[访问站点](https://www.fanghsiu.top)
+[访问网站](https://www.fanghsiu.top)
