@@ -92,6 +92,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     ssgOptions: {
       onFinished() {
         generateSitemap({
+          hostname: 'https://www.fanghsiu.top',
           robots: [{
             userAgent: '*',
             allow: '/',
