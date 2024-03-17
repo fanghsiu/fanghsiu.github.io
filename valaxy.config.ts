@@ -2,6 +2,8 @@ import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from 'valaxy-addon-waline'
 
+import generateSitemap from 'vite-ssg-sitemap'
+
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -84,5 +86,19 @@ export default defineValaxyConfig<UserThemeConfig>({
       serverURL: 'https://waline.fanghsiu.top',
       emoji: ['//npm.onmicrosoft.cn/@waline/emojis@1.2.0/alus/'],
     })
-  ]
+  ],
+
+  vite: {
+    ssgOptions: {
+      onFinished() {
+        generateSitemap({
+          robots: [{
+            userAgent: '*',
+            allow: '/',
+            disallow: ['/images/qq.png','/images/wx.png'],
+          }]
+        })
+      },
+    },
+  }
 })

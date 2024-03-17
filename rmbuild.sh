@@ -1,3 +1,5 @@
+#!/bin/bash
+# remove build cache
 # dist/
 rm -rf dist/
 # valaxy rss
