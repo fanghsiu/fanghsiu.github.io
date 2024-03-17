@@ -1,8 +1,5 @@
 # robots.txt
-
 User-agent: *
-
-Disallow: /images/QQ.jpg
-Disallow: /images/WeChat.png
-
+Disallow: /images/qq.png
+Disallow: /images/wx.png
 Sitemap: https://www.fanghsiu.top/sitemap.xml
