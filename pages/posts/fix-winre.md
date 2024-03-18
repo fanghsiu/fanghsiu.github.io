@@ -3,7 +3,7 @@ title: 修复 WinRE 环境
 date: 2024-03-13
 updated: 2024-03-13
 categories: 笔记
-tags: [Windows,]
+tags: [Windows]
 ---
 
 Windows-10 KB5034441 更新失败，但是之前懒得搞，最近看着更新图标一直在托盘烦人，于是在今天决定解决它，最终在查找一众资料后，通过修复 WinRE 解决问题。于是总结了下经验，不保证所有情况都可以。
