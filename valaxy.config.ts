@@ -96,10 +96,10 @@ export default defineValaxyConfig<UserThemeConfig>({
           robots: [{
             userAgent: '*',
             allow: '/',
-            disallow: ['/images/qq.png','/images/wx.png'],
+            disallow: ['/images/qq.png','/images/wx.png']
           }]
         })
-      },
-    },
+      }
+    }
   }
 })
