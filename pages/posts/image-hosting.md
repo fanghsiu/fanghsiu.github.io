@@ -18,8 +18,8 @@ tags: [blog]
 :::details 583KB https://cdn.fanghsiu.top/img/1703159046212.jpg
 ![](https://cdn.fanghsiu.top/img/1703159046212.jpg)
 :::
-## 路过图床
 
+## 路过图床
 https://imgse.com/
 
 [关于我们 - 路过图床](https://imgse.com/page/about)<br>
@@ -35,7 +35,6 @@ https://imgse.com/
 [服务条款 - 路过图床](https://imgse.com/page/tos)<div color='red'>不让放卡通漫画(包括ACG/二次元/动漫游戏等)。</div>
 
 ## github + jsdelivr
-
 在 jsdelivr 备案还在的时候还是很好的,现在已经不太好用了.不过可以用 cloudflare workers 做反代,大图片挺慢的,压缩一下还好.
 
 介绍个国内镜像站 https://jsd.cdn.zzko.cn<br>
@@ -48,7 +47,6 @@ https://imgse.com/
 [登录 | PicX](https://picx.xpoet.cn/)  PicX 是一款基于 GitHub API 开发的图床工具,提供图片上传托管、生成图片链接和常用图片工具箱服务,可以直接复制那个镜像站链接,挺不错的.
 
 ## 超星网盘
-
 [图床 | 把 “学习通” 当图床 （教程/免费图床）](https://mp.weixin.qq.com/s?__biz=MzkzODYwODIxMQ==&mid=2247483808&idx=1&sn=ec4fff98f6380be691fec371d317fe24&chksm=c2fcd29cf58b5b8a6874e5167223c37af744648f8c9e19c4627002b35d82a8e6caf24d6e54d8&scene=132&exptype=timeline_recommend_article_extendread_samebiz#wechat_redirect)
 
 在微信上看到的,试了一下,真的可以. 不过只有 10G 作为图床够用了. 界面简洁,网页上传复制直链,挺不错的.
