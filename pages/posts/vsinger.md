@@ -4,7 +4,6 @@ date: 2012-07-12
 updated: 2012-07-12
 categories: [Vsinger, 洛天依]
 tags: [Vsinger, 洛天依]
-# cover: https://gukaifeng.cn/img/bg.jpg
 cover: https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg
 top: 712
 aplayer: true

@@ -1,5 +1,7 @@
 <script lang="ts" setup>
+// @ts-ignore
 import { onImgError } from 'valaxy-theme-yun/utils/index.ts'
+// @ts-ignore
 import { useRandomData } from 'valaxy-theme-yun/composables/helper.ts'
 
 interface GirlType {
@@ -21,12 +23,9 @@ const { data } = useRandomData(props.girls, props.random)
 <template>
   <div class="girls">
     <ul class="girl-items">
-      <li v-for="girl, i in data" :key="girl.name" class="girl-item">
-        <a
-          class="girl-item-link"
-          :href="girl.url || `https://zh.moegirl.org/${girl.name}`"
-          :title="girl.reason" alt="portrait" target="_blank" rel="noopener"
-        >
+      <li v-for="girl in data" :key="girl.name" class="girl-item">
+        <a class="girl-item-link" :href="girl.url || `https://zh.moegirl.org/${girl.name}`" :title="girl.reason"
+          alt="portrait" target="_blank" rel="noopener">
           <figure class="girl-info">
             <img class="girl-avatar" loading="lazy" :src="girl.avatar" :alt="girl.name" :onError="onImgError">
             <figcaption class="girl-name">{{ girl.name }}</figcaption>

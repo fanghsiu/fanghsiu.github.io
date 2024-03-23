@@ -4,7 +4,9 @@ date: 2023-11-09
 updated: 2023-11-09
 categories: Python
 tags: [python, selenium]
+from: /posts/python/index  # 临时修复fuse搜索路径出错
 ---
+
 :::details The Zen of Python, by Tim Peters
 <div style="text-align:center">
 The Zen of Python, by Tim Peters

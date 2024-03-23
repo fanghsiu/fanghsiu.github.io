@@ -43,7 +43,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <Waline v-bind="options" :server-u-r-l="options.serverURL" :lang="locale" :path="path" :dark="isDark" :emoji="emoji" />
+  <Waline v-bind="options" :server-u-r-l="options.serverURL" :lang="locale" :path="path" :dark="isDark"
+    :emoji="emoji" />
 </template>
 
 <style>

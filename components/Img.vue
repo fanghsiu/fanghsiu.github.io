@@ -1,11 +1,17 @@
 <script lang="ts" setup>
 const props = defineProps<{
-  src?: string
+  src: string
+  alt: string
+  caption: string
 }>()
+const src = props.src || ""
+const alt = props.alt || ""
+const caption = props.caption || ""
 </script>
 
 <template>
   <figure>
-    <img referrerpolicy="no-referrer" :src="props.src" alt="" loading="lazy" decoding="async" class="medium-zoom-image" />
+    <img referrerpolicy="no-referrer" :src="src" :alt="alt" loading="lazy" decoding="async" class="medium-zoom-image" />
+    <figcaption v-if="caption != ''">{{ caption }}</figcaption>
   </figure>
 </template>

@@ -40,7 +40,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       url: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
       dark: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
-      // dark: 'https://gukaifeng.cn/img/bg.jpg',
       opacity: 0.35
     },
 
