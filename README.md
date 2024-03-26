@@ -1,3 +1,3 @@
 # Site
 
-[view my blog](https://www.fanghsiu.top)
+[Site](https://www.fanghsiu.top)

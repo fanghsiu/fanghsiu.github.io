@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 import { useHead } from '@unhead/vue'
-import albums from 'valaxy-theme-yun/layouts/albums.vue'
+import { defineAsyncComponent } from 'vue'
+
 useHead({ meta: [{ name: 'referrer', content: 'no-referrer' }] })
+const albums = defineAsyncComponent(() => import('valaxy-theme-yun/layouts/albums.vue'))
 </script>
 
 <template>

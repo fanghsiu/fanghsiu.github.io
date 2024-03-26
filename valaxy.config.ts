@@ -1,8 +1,10 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { addonWaline } from 'valaxy-addon-waline'
 
 import generateSitemap from 'vite-ssg-sitemap'
+
+import { addonWaline } from 'valaxy-addon-waline'
+import { addonLightGallery } from 'valaxy-addon-lightgallery'
 
 // add icons what you will need
 const safelist = [
@@ -52,6 +54,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
+        name: '相册',
+        url: '/albums',
+        icon: 'i-ri-gallery-line',
+        color: '#66CCFF',
+      },
+      {
         name: '铜雀台',
         url: '/girls',
         // icon: 'i-ri-women-line',
@@ -83,8 +91,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonWaline({
       serverURL: 'https://waline.fanghsiu.top',
-      emoji: ['//npm.onmicrosoft.cn/@waline/emojis@1.2.0/alus/'],
-    })
+      cdn: 'https://jsd.onmicrosoft.cn/npm/',
+    }),
+    addonLightGallery(),
   ],
 
   vite: {

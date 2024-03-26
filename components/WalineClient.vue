@@ -16,10 +16,12 @@ const props = defineProps<{
   options: WalineOptions
 }>()
 
+const types = ['alus', 'bilibili', 'qq']
+
 const route = useRoute()
 const { locale } = useI18n()
 const path = computed(() => props.options.path || route.path.replace(/\/$/, ''))
-const emoji = props.options.emoji || computed(() => getEmojis(props.options.cdn))
+const emoji = props.options.emoji || computed(() => getEmojis(props.options.cdn, types))
 
 onMounted(() => {
   const { pageview, comment } = props.options
