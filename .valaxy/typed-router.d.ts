@@ -32,6 +32,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/dissertation': RouteRecordInfo<'/posts/dissertation', '/posts/dissertation', Record<never, never>, Record<never, never>>,
     '/posts/fix-winre': RouteRecordInfo<'/posts/fix-winre', '/posts/fix-winre', Record<never, never>, Record<never, never>>,
+    '/posts/guide': RouteRecordInfo<'/posts/guide', '/posts/guide', Record<never, never>, Record<never, never>>,
     '/posts/hi': RouteRecordInfo<'/posts/hi', '/posts/hi', Record<never, never>, Record<never, never>>,
     '/posts/image-hosting': RouteRecordInfo<'/posts/image-hosting', '/posts/image-hosting', Record<never, never>, Record<never, never>>,
     '/posts/jetbrains-patch': RouteRecordInfo<'/posts/jetbrains-patch', '/posts/jetbrains-patch', Record<never, never>, Record<never, never>>,
@@ -46,7 +47,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/virtual-machine': RouteRecordInfo<'/posts/virtual-machine', '/posts/virtual-machine', Record<never, never>, Record<never, never>>,
     '/posts/vsinger': RouteRecordInfo<'/posts/vsinger', '/posts/vsinger', Record<never, never>, Record<never, never>>,
     '/posts/wiki': RouteRecordInfo<'/posts/wiki', '/posts/wiki', Record<never, never>, Record<never, never>>,
-    '/posts/wt': RouteRecordInfo<'/posts/wt', '/posts/wt', Record<never, never>, Record<never, never>>,
     '/posts/yolov8': RouteRecordInfo<'/posts/yolov8', '/posts/yolov8', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }

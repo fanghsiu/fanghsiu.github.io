@@ -1,7 +1,8 @@
 ---
-title: 关于图床
+title: 图床
 date: 2023-12-28
 updated: 2023-12-28
+# categories: []
 tags: [blog]
 ---
 
@@ -22,15 +23,7 @@ tags: [blog]
 ## 路过图床
 https://imgse.com/
 
-[关于我们 - 路过图床](https://imgse.com/page/about)<br>
-免费, 至少一直会保留免费套餐.<br>
-支持外链, 无限空间, 无限流量.<br>
-无需登录即可上传,最大支持10M的图片.<br>
-全球CDN加速, 提升您的图片在全球访问速度.<br>
-全站启用SSL加密链接，保障您的信息安全.<br>
-图床从2011年至今都稳定运行.<br>
-除违反TOS之外, 我们不会删除图片, 即使是多年无任何流量的图片也不会删除.<br>
-使用云存储技术, 数据实时本地和异地多重备份, 保证您的数据安全.
+[关于我们 - 路过图床](https://imgse.com/page/about)
 
 [服务条款 - 路过图床](https://imgse.com/page/tos)<div color='red'>不让放卡通漫画(包括ACG/二次元/动漫游戏等)。</div>
 
@@ -55,4 +48,5 @@ https://imgse.com/
 ![](https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png)
 :::
 
-删除图片后,图片链接依旧可以使用.eg: https://p.ananas.chaoxing.com/star3/origin/4075d4b59a9884847399d4ab8e8db9e1.png
+删除图片后,图片链接依旧可以使用.eg: https://p.ananas.chaoxing.com/star3/origin/4075d4b59a9884847399d4ab8e8db9e1.png  
+不清楚能维持多久

@@ -2,6 +2,8 @@
 title: 记第一次 YOLOv8 检测训练
 date: 2023-07-02
 updated: 2023-07-06
+# categories: []
+# tags: []
 ---
 
 >[nan report in box_class cls_class and dfl_loss when train custom dataset · Issue #280 · ultralytics/ultralytics](https://github.com/ultralytics/ultralytics/issues/280)

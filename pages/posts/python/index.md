@@ -2,7 +2,7 @@
 title: Python
 date: 2023-11-09
 updated: 2023-11-09
-categories: Python
+categories: [Python]
 tags: [python, selenium]
 from: /posts/python/index  # 临时修复fuse搜索路径出错
 ---

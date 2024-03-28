@@ -4,12 +4,13 @@ type: link
 url: http://wiki.fanghsiu.top
 date: 2022-10-28 
 updated: 2022-10-28
-categories: 笔记
+categories: [笔记]
 tags: [笔记]
+cover: https://y75.gitee.io/images/logo.svg
 ---
 
 <p style="text-align:center">FangHsiu's WiKi</p>
-<p style="text-align:center">由 VuePress 生成的静态 WiKi 网站</p>
+<p style="text-align:center">由 VitePress 生成的静态 WiKi 网站</p>
 <p style="text-align:center">PS: I am a rookie.</p>
 
 <!-- more -->

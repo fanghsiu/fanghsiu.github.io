@@ -3,7 +3,7 @@ layout: post
 title: 'Python: 在 Edge 上使用 selenium'
 date: 2022-01-12
 updated: 2022-01-12
-categories: Python
+categories: [Python]
 tags: [python, selenium]
 ---
 

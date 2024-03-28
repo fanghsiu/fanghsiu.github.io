@@ -2,7 +2,7 @@
 title: 修复 WinRE 环境
 date: 2024-03-13
 updated: 2024-03-13
-categories: 笔记
+categories: [笔记]
 tags: [Windows]
 ---
 
