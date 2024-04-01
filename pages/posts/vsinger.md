@@ -5,7 +5,7 @@ updated: 2012-07-12
 categories: [Vsinger, 洛天依]
 tags: [Vsinger, 洛天依]
 # cover: https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg
-cover: https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg
+cover: https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/b8cc9f98f51f28b09aa21e9c0986c6f5_555884689708033662.png?x-oss-process=image/format,jpg
 end: true
 top: 712
 aplayer: true
@@ -25,6 +25,7 @@ aplayer: true
 <hr>
 
 <!-- ![洛天依](https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg)_洛天依_ -->
+![洛天依](https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg)
 
 [虚拟歌手 | Vsinger 虚拟歌手官网 — 洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯、墨清弦](https://vsinger.com/vsinger)
 
