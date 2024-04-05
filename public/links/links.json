@@ -1,14 +1,14 @@
 [
     {
-        "url": "https://cnlty.github.io",
-        "avatar": "https://avatars.githubusercontent.com/u/79364623",
+        "url": "https://cnlty.github.io/",
+        "avatar": "https://cnlty.github.io/avatar.jpg",
         "name": "惟依",
         "blog": "惟依",
         "desc": "惟一的依",
         "color": "#66ccff"
     },
     {
-        "url": "https://wiki.fanghsiu.top",
+        "url": "https://wiki.fanghsiu.top/",
         "avatar": "https://wiki.fanghsiu.top/images/logo.svg",
         "name": "WiKi",
         "blog": "FangHsiu's WiKi",
@@ -16,7 +16,7 @@
         "color": "#66ccff"
     },
     {
-        "url": "https://www.bilibili.com/festival/lty10th",
+        "url": "https://www.bilibili.com/festival/lty10th/",
         "avatar": "/images/10th.jpg",
         "name": "洛天依十周年官方演唱会",
         "blog": "洛天依十周年",
@@ -32,11 +32,11 @@
         "color": "#66ccff"
     },
     {
-        "url": "https://v2.vuepress.vuejs.org/zh/",
-        "avatar": "https://v2.vuepress.vuejs.org/images/hero.png",
-        "name": "VuePress",
-        "blog": "首页 | VuePress",
-        "desc": "Vue 驱动的静态网站生成器",
+        "url": "https://vitepress.dev/zh/",
+        "avatar": "https://vitepress.dev/vitepress-logo-mini.svg",
+        "name": "VitePress | 由 Vite 和 Vue 驱动的静态站点生成器",
+        "blog": "VitePress",
+        "desc": "由 Vite 和 Vue 驱动的静态站点生成器",
         "color": "#66ccff"
     }
 ]
