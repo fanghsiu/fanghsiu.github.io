@@ -12,7 +12,7 @@
         "avatar": "https://wiki.fanghsiu.top/images/logo.svg",
         "name": "WiKi",
         "blog": "FangHsiu's WiKi",
-        "desc": "由 VuePress 生成的静态 WiKi 网站",
+        "desc": "由 VitePress 生成的静态 WiKi 网站",
         "color": "#66ccff"
     },
     {
