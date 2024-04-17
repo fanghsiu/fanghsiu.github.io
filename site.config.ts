@@ -10,7 +10,7 @@ export default defineSiteConfig({
 
   subtitle: 'Chase',
 
-  favicon: 'https://www.fanghsiu.top/favicon.ico',
+  favicon: '/favicon.ico',
 
   author: {
     name: '方脩',
