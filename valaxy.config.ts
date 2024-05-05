@@ -76,7 +76,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
         name: 'i-ri-cloud-line',
         animated: true,
-        color: '#66ccff',
         url: '/',
         title: '方脩',
       },
