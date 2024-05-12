@@ -4,11 +4,9 @@ date: 2023-11-09
 updated: 2023-11-09
 categories: [Python]
 tags: [python, selenium]
-from: /posts/python/index  # 临时修复fuse搜索路径出错
 ---
 
-:::details The Zen of Python, by Tim Peters
-<div style="text-align:center">
+:::details import this
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.  
@@ -30,7 +28,6 @@ Although never is often better than \*right\* now.
 If the implementation is hard to explain, it's a bad idea.  
 If the implementation is easy to explain, it may be a good idea.  
 Namespaces are one honking great idea -- let's do more of those!
-</div>
 :::
 
 1. <AppLink href='./python/python-using-selenium-on-edge'>Python: 在 Edge 上使用 selenium</AppLink>

@@ -6,7 +6,7 @@ date: 2022-10-28
 updated: 2022-10-28
 categories: [笔记]
 tags: [笔记]
-cover: https://y75.gitee.io/images/logo.svg
+cover: https://wiki.fanghsiu.top/images/logo.svg
 ---
 
 <p style="text-align:center">FangHsiu's WiKi</p>

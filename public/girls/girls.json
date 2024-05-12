@@ -1,12 +1,13 @@
 [
     {
         "name": "洛天依",
+        "url": "https://vsinger.com/vsinger",
         "avatar":"/images/avatar.png",
         "from":"Virtual singer"
     },
     {
         "name": "初音未来",
-        "avatar":"/girls/miku.png",
+        "avatar":"/girls/miku.jpg",
         "from":"Virtual singer"
     },
     {
