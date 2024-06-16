@@ -43,6 +43,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/sdau': RouteRecordInfo<'/posts/sdau', '/posts/sdau', Record<never, never>, Record<never, never>>,
     '/posts/site-favourites': RouteRecordInfo<'/posts/site-favourites', '/posts/site-favourites', Record<never, never>, Record<never, never>>,
     '/posts/test/': RouteRecordInfo<'/posts/test/', '/posts/test', Record<never, never>, Record<never, never>>,
+    '/posts/test/t': RouteRecordInfo<'/posts/test/t', '/posts/test/t', Record<never, never>, Record<never, never>>,
     '/posts/tools': RouteRecordInfo<'/posts/tools', '/posts/tools', Record<never, never>, Record<never, never>>,
     '/posts/virtual-machine': RouteRecordInfo<'/posts/virtual-machine', '/posts/virtual-machine', Record<never, never>, Record<never, never>>,
     '/posts/vsinger': RouteRecordInfo<'/posts/vsinger', '/posts/vsinger', Record<never, never>, Record<never, never>>,

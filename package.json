@@ -13,10 +13,10 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
-    "valaxy": "^0.18.7",
+    "valaxy": "^0.18.8",
     "valaxy-addon-lightgallery": "^0.0.2",
     "valaxy-addon-waline": "^0.1.2",
-    "valaxy-theme-yun": "^0.18.7"
+    "valaxy-theme-yun": "^0.18.8"
   },
   "devDependencies": {
     "typescript": "^5.2.2"

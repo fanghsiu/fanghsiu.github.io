@@ -11,6 +11,8 @@ cover: https://upload-bbs.miyoushe.com/upload/2024/03/08/288909600/0ee2581522788
 
 <!-- more -->
 
+<!-- @include:./t.md{5,} -->
+
 time_warning 默认为 180 天。
 
 $$\color{#6CF}y = ax^2 + bx + c$$
