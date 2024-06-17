@@ -37,6 +37,11 @@ https://imgse.com/
 :::
 [镜像站使用规定-站务公告论坛-镜像站交流-jsdelivr镜像站](https://jsd.cdn.zzko.cn/forum-post/67.html)
 
+:::tip
+镜像站换新域名了 https://blog.jsdmirror.com<br>
+只需将 https://cdn.jsdelivr.net 修改为 境内站: https://cdn.jsdmirror.com 国际站https://cdn.jsdelivr.us
+:::
+
 [登录 | PicX](https://picx.xpoet.cn/)  PicX 是一款基于 GitHub API 开发的图床工具,提供图片上传托管、生成图片链接和常用图片工具箱服务,可以直接复制那个镜像站链接,挺不错的.
 
 ## 超星网盘
@@ -50,3 +55,8 @@ https://imgse.com/
 
 删除图片后,图片链接依旧可以使用.eg: https://p.ananas.chaoxing.com/star3/origin/4075d4b59a9884847399d4ab8e8db9e1.png  
 不清楚能维持多久
+
+:::tip
+2024/6/17 最近加了 referrer 检测，直接使用会 403 `referrerpolicy="no-referrer"`
+<Img src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png" />
+:::
