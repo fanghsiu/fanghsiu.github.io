@@ -3,17 +3,17 @@
         "name": "洛天依",
         "url": "https://vsinger.com/vsinger",
         "avatar":"/images/avatar.png",
-        "from":"Virtual singer"
+        "from":"虚拟歌手"
     },
     {
-        "name": "初音未来",
-        "avatar":"/girls/miku.jpg",
-        "from":"Virtual singer"
-    },
-    {
-        "name": "月下誓约·予爱以心",
+        "name": "月下",
         "url": "https://zh.moegirl.org.cn/德丽莎·阿波卡利斯(崩坏3)/月下誓约·予爱以心",
         "avatar": "/girls/LunarVow.png",
-        "from": "bh3"
+        "from": "崩坏三"
+    },
+    {
+        "name":"甘雨",
+        "avatar":"/girls/GanYu.png",
+        "from": "原神"
     }
 ]

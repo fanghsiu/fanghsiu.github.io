@@ -41,6 +41,13 @@ https://live.bilibili.com/1546736
 
 ---
 
+## 我喜欢的音乐
+
+《天行健》https://www.bilibili.com/video/BV1yW411t7W6  天行健，君子以自强不息；
+《地势坤》https://www.bilibili.com/video/BV1tE411X7yQ  地势坤，君子以厚德载物。
+
+
+
 ## 九周年生贺曲《夏虫》
 <iframe style="width: 100%;height: 400px;" src="https://player.bilibili.com/player.html?aid=291530455&bvid=BV1Hf4y1L7MF&cid=368390647&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
