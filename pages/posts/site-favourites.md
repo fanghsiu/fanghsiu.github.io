@@ -1,16 +1,23 @@
 ---
 title: 网址收藏夹
-hide: index
+# hide: index
 cover: https://s21.ax1x.com/2024/08/10/pASwSXj.png
+tags: [网站收藏]
 ---
+
+<p style="text-align:center;color: red;font-weight: bold;">
+富强 民主 文明 和谐<br />
+自由 平等 公正 法治<br />
+爱国 敬业 诚信 友善<br />
+</p>
 
 <!-- more -->
 
 ---
 
-[国家法律法规数据库](https://flk.npc.gov.cn/)
-
 [马克思主义文库](https://www.marxists.org/chinese/index.html)
+
+[国家法律法规数据库](https://flk.npc.gov.cn/)
 
 [洛天依十周年官方演唱会](https://www.bilibili.com/festival/lty10th/)
 
