@@ -1,5 +1,5 @@
 ---
-title: 天一生水 地六成之
+title: '#66CCFF'
 date: 2012-07-12
 updated: 2024-07-12
 categories: [Vsinger, 洛天依]
@@ -43,7 +43,7 @@ https://live.bilibili.com/1546736
 
 ## 我喜欢的音乐
 
-《天行健》https://www.bilibili.com/video/BV1yW411t7W6  天行健，君子以自强不息；
+《天行健》https://www.bilibili.com/video/BV1yW411t7W6  天行健，君子以自强不息；<br>
 《地势坤》https://www.bilibili.com/video/BV1tE411X7yQ  地势坤，君子以厚德载物。
 
 
