@@ -1,4 +1,5 @@
 ---
+layout: Post
 title: 山农记忆
 date: 2023-06-20
 updated: 2023-06-20
