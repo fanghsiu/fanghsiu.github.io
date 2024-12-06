@@ -11,7 +11,8 @@ cover: https://s21.ax1x.com/2024/12/06/pATsFBR.jpg
 <!-- more -->
 
 ## vercel 反代 jsdelivr
-直接部署到vercel，需要一个域名国内才能访问，你也可以选择netlify。比github pages更快。
+vercel 反代 jsdelivr，速度感觉还不错。  
+参考[荣6的jsDelivr镜像站](https://jsd.nmmsl.top/)
 :::info
 [luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/img/luotianyi_swimsuit_compress.jpg) ( 583KB )
 :::
@@ -68,5 +69,5 @@ src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c
 ```
 :::
 
-<Img src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png" alt="luotianyi_swimsuit" caption="luotianyi_swimsuit"/>
+<yun-img src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png" alt="luotianyi_swimsuit" caption="luotianyi_swimsuit"/>
 
