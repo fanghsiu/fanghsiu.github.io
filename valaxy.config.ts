@@ -19,11 +19,13 @@ export default defineValaxyConfig<UserThemeConfig>({
   siteConfig: {},
 
   theme: 'yun',
+
   themeConfig: {
+
     banner: {
       enable: true,
       // title: '永恒轮回的不沉之船',
-      title: ['天一生水','地六成之'],
+      title: ['爱国', '敬业', '诚信', '友善'],
       cloud: {
         enable: false,
       },
@@ -34,24 +36,20 @@ export default defineValaxyConfig<UserThemeConfig>({
       api: '',
       hitokoto: {
         enable: false,
-        api: ''
+        api: '',
       }
     },
 
     bg_image: {
       enable: true,
-      // url: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
-      // dark: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
-      url: 'https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg',
-      dark: 'https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg',
-      opacity: 0.5
+      url: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
+      dark: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
     },
 
     pages: [
       {
         name: '友人帐',
         url: '/links',
-        // icon: 'i-ri-genderless-line',
         icon: 'i-ri-user-star-line',
         color: 'dodgerblue',
       },
@@ -64,7 +62,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '铜雀台',
         url: '/girls',
-        // icon: 'i-ri-women-line',
         icon: 'i-ri-user-heart-line',
         color: 'hotpink',
       },
@@ -105,10 +102,10 @@ export default defineValaxyConfig<UserThemeConfig>({
           robots: [{
             userAgent: '*',
             allow: '/',
-            disallow: ['/images/qq.png','/images/wx.png']
-          }]
-        })
-      }
-    }
-  }
+            disallow: ['/images/qq.png', '/images/wx.png'],
+          },],
+        },)
+      },
+    },
+  },
 })

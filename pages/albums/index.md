@@ -2,9 +2,10 @@
 layout: Albums
 # hide: true
 nav: false
+aside: false
 albums: [
     {
-        "url": "/albums/lty",
+        "url": "/albums/vsinger",
         "cover": "https://avatars.githubusercontent.com/u/79364623",
         "caption": "洛天依",
         "desc": "华风夏韵 洛水天依"

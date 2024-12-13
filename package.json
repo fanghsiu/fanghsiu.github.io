@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "valaxy": "^0.18.10",
-    "valaxy-addon-lightgallery": "^0.0.2",
-    "valaxy-addon-waline": "^0.1.2",
+    "valaxy-addon-lightgallery": "^0.0.4",
+    "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-yun": "^0.18.10"
   },
   "devDependencies": {

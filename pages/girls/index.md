@@ -7,6 +7,7 @@ random: false
 nav: false  # 是否显示前一篇、后一篇导航
 toc: false
 aside: false
+time_warning: false
 ---
 
 <div class="text-center" m="2" title="我全都要！">

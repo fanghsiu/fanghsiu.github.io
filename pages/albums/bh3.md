@@ -2,6 +2,7 @@
 layout: Gallery
 # hide: true
 nav: false
+aside: false
 photos: [
     {
         "src": "https://i0.hdslb.com/bfs/new_dyn/898070e611feb78eb29d183bb59bc2153461563774142488.png@1044w_1044h.webp",
