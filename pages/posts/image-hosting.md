@@ -14,17 +14,17 @@ cover: https://s21.ax1x.com/2024/12/06/pATsFBR.jpg
 vercel 反代 jsdelivr，速度感觉还不错。  
 参考[荣6的jsDelivr镜像站](https://jsd.nmmsl.top/)
 :::info
-[luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/img/luotianyi_swimsuit_compress.jpg) ( 583KB )
+[luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg) ( 583KB )
 :::
-![luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/img/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
+![luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
 
 
 ## github pages 
 单纯的Github直链很慢，利用GitHub自带的pages进行部署。速度感觉没快多少。
 :::info
-[luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/img/luotianyi_swimsuit_compress.jpg) ( 583KB )
+[luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/images/luotianyi_swimsuit_compress.jpg) ( 583KB )
 :::
-![luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/img/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
+![luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
 
 
 ## vercel
@@ -47,9 +47,9 @@ https://imgse.com/
 介绍个国内镜像站 https://blog.jsdmirror.com<br>[使用规定](https://blog.jsdmirror.com/3.html)  
 只需将 https://cdn.jsdelivr.net 修改为 境内站: https://cdn.jsdmirror.com
 :::info
-[luotianyi_swimsuit_compress](https://cdn.jsdmirror.com/gh/fanghsiu/cdn@main/img/luotianyi_swimsuit_compress.jpg) ( 583KB )
+[luotianyi_swimsuit_compress](https://cdn.jsdmirror.com/gh/fanghsiu/cdn@main/images/luotianyi_swimsuit_compress.jpg) ( 583KB )
 :::
-![luotianyi_swimsuit_compress](https://cdn.jsdmirror.com/gh/fanghsiu/cdn@main/img/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
+![luotianyi_swimsuit_compress](https://cdn.jsdmirror.com/gh/fanghsiu/cdn@main/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
 
 
 
@@ -69,5 +69,5 @@ src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c
 ```
 :::
 
-<yun-img src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png" alt="luotianyi_swimsuit" caption="luotianyi_swimsuit"/>
+<pic src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png" alt="luotianyi_swimsuit" caption="luotianyi_swimsuit"/>
 
