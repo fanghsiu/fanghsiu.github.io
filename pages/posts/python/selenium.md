@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Selenium
 date: 2023-11-09
 updated: 2023-11-10

@@ -23,7 +23,7 @@ export default defineSiteConfig({
     },
   },
 
-  description: '唯此薪火，永燃不熄。',
+  description: '唯此薪火 永燃不熄',
 
   social: [
     {

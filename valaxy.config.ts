@@ -16,7 +16,11 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts or write in siteConfig
-  siteConfig: {},
+  siteConfig: {
+    frontmatter: {
+      cover: 'https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg',
+    },
+  },
 
   theme: 'yun',
 
@@ -26,17 +30,14 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       // title: '永恒轮回的不沉之船',
       title: ['爱国', '敬业', '诚信', '友善'],
-      cloud: {
-        enable: false,
-      },
     },
 
     say: {
-      enable: false,
+      enable: true,
       api: '',
       hitokoto: {
-        enable: false,
-        api: '',
+        enable: true,
+        api: 'https://v1.hitokoto.cn/?c=i&encode=json',
       }
     },
 
@@ -48,19 +49,19 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '友人帐',
-        url: '/links',
-        icon: 'i-ri-user-star-line',
-        color: 'dodgerblue',
-      },
-      {
-        name: '相册',
+        name: '流光相册',
         url: '/albums',
         icon: 'i-ri-gallery-line',
         color: '#66CCFF',
       },
       {
-        name: '铜雀台',
+        name: '友情链接',
+        url: '/links',
+        icon: 'i-ri-user-star-line',
+        color: 'dodgerblue',
+      },
+      {
+        name: '铜雀春深',
         url: '/girls',
         icon: 'i-ri-user-heart-line',
         color: 'hotpink',
@@ -89,7 +90,6 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonWaline({
       serverURL: 'https://waline.fanghsiu.top',
-      cdn: 'https://jsd.onmicrosoft.cn/npm/',
     }),
     addonLightGallery(),
   ],
