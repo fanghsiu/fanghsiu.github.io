@@ -13,12 +13,13 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
+    "@waline/client": "^3.4.1",
     "valaxy": "^0.22.5",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-yun": "^0.22.5"
   },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.7.2"
   }
 }
