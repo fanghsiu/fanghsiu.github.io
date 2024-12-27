@@ -32,18 +32,6 @@ export default defineSiteConfig({
       icon: 'i-ri-rss-line',
       color: 'orange',
     },
-    // {
-    //   name: 'QQ',
-    //   link: '/images/QQ.jpg',
-    //   icon: 'i-ri-qq-line',
-    //   color: '#12B7F5',
-    // },
-    // {
-    //   name: '微信',
-    //   link: '/images/WeChat.png',
-    //   icon: 'i-ri-wechat-2-line',
-    //   color: '#1AAD19',
-    // },
     {
       name: 'GitHub',
       link: 'https://github.com/fanghsiu',
@@ -56,18 +44,18 @@ export default defineSiteConfig({
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
-    // {
-    //   name: '哔哩哔哩',
-    //   link: 'https://space.bilibili.com/424096741',
-    //   icon: 'i-ri-bilibili-line',
-    //   color: '#FF8EB3',
-    // },
-    // {
-    //   name: '网易云音乐',
-    //   link: 'https://music.163.com/#/user/home?id=4016357729',
-    //   icon: 'i-ri-netease-cloud-music-line',
-    //   color: '#C20C0C',
-    // },
+    {
+      name: '哔哩哔哩',
+      link: 'https://space.bilibili.com/424096741',
+      icon: 'i-ri-bilibili-line',
+      color: '#FF8EB3',
+    },
+    {
+      name: '网易云音乐',
+      link: 'https://music.163.com/#/user/home?id=4016357729',
+      icon: 'i-ri-netease-cloud-music-line',
+      color: '#C20C0C',
+    },
     {
       name: 'Travelling',
       link: 'https://www.travellings.cn/go.html',
@@ -95,5 +83,9 @@ export default defineSiteConfig({
 
   encrypt: {
     enable: true,
-  }
+  },
+
+  frontmatter: {
+    cover: 'https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg',
+  },
 })
