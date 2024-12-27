@@ -29,7 +29,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     banner: {
       enable: true,
       // title: '永恒轮回的不沉之船',
-      title: ['爱国', '敬业', '诚信', '友善'],
+      title: '追',
     },
 
     say: {
