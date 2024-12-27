@@ -3,7 +3,7 @@ title: 指南
 date: 2024-02-02
 updated: 2024-03-28
 # categories: []
-tags: [2FA, WT]
+tags: [2FA, Windows terminal]
 ---
 
 记录一些问题及解决方法。

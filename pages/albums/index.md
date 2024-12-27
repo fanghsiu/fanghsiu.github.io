@@ -3,7 +3,6 @@ layout: Albums
 # hide: true
 nav: false
 aside: false
-cover: false
 albums: [
     {
         "url": "/albums/vsinger",

@@ -84,8 +84,4 @@ export default defineSiteConfig({
   encrypt: {
     enable: true,
   },
-
-  frontmatter: {
-    cover: 'https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg',
-  },
 })

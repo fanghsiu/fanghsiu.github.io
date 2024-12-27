@@ -3,7 +3,6 @@ layout: Gallery
 # hide: true
 nav: false
 aside: false
-cover: false
 photos: [
     {
         "src": "https://avatars.githubusercontent.com/u/79364623",
