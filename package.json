@@ -4,7 +4,7 @@
   "version": "0.22.5",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg && npm run rss && npm run fuse",
+    "build": "npm run fuse && npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
@@ -13,7 +13,6 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
-    "@waline/client": "^3.4.1",
     "valaxy": "^0.22.5",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-waline": "^0.2.0",

@@ -90,6 +90,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonWaline({
       serverURL: 'https://waline.fanghsiu.top',
+      comment: true,
     }),
     addonLightGallery(),
   ],
