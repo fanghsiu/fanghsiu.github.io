@@ -11,9 +11,7 @@ const safelist = [
   'i-ri-home-line',
 ]
 
-/**
- * User Config
- */
+// User Config
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts or write in siteConfig
   siteConfig: {
@@ -52,7 +50,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '流光相册',
         url: '/albums',
         icon: 'i-ri-gallery-line',
-        color: '#66CCFF',
       },
       {
         name: '友情链接',
@@ -90,7 +87,6 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonWaline({
       serverURL: 'https://waline.fanghsiu.top',
-      comment: true,
     }),
     addonLightGallery(),
   ],

@@ -1,33 +1,33 @@
 ---
-title: '#66CCFF'
+title: 华风夏韵 洛水天依
 date: 2012-07-12
 updated: 2024-07-12
 categories: [Vsinger, 洛天依]
 tags: [Vsinger, 洛天依]
-# cover: https://res.vsinger.com/images/5dd18c9fb658d70dca509184c0a50202.jpg
-cover: https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/b8cc9f98f51f28b09aa21e9c0986c6f5_555884689708033662.png?x-oss-process=image/format,jpg
 end: true
-top: 712
+top: 15
 aplayer: true
 ---
 
-<p style="text-align:center;color:#66CCFF;font-size:32px;font-family:lisu">华风夏韵 洛水天依</p>
-
-<!-- more -->
-
 ## 华风夏韵 洛水天依
 
-<meting-js
+<!-- <meting-js
  id="535936139"
  server="netease"
  type="song"
  theme="#66CCFF">
-</meting-js>
+</meting-js> -->
 
-<hr>
+| 洛天依 LUO TIANYI | 代表色：<span style="color:#66CCFF">#66CCFF</span> |
+|-----------------|------------------------------------------------|
+| 年龄：15岁         | 生日：7月12日                                      |
+| 身高：156cm        | 音之精灵：天钿                                     |
+| 乐器：麦克         | 声源：山新＆鹿乃                                    |
 
-<!-- ![洛天依](https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg)_洛天依_ -->
-![洛天依](https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg "洛天依")
+一个感性、温柔、细致的少女。既有为别人流泪的温柔，也有历经挫折绝不放弃的坚强。擅长用歌声表现自己和他人的感情，并决心成为传递幸福与感动的歌手。
+
+![洛天依](https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg "洛天依")
+<!-- ![洛天依](https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg "洛天依") -->
 
 ---
 
@@ -44,25 +44,8 @@ https://live.bilibili.com/1546736
 ## 我喜欢的音乐
 
 《天行健》https://www.bilibili.com/video/BV1yW411t7W6  天行健，君子以自强不息。<br>
-《地势坤》https://www.bilibili.com/video/BV1tE411X7yQ  地势坤，君子以厚德载物。
-
-
-
-### 九周年生贺曲《夏虫》
-<iframe class="tv" src="https://player.bilibili.com/player.html?aid=291530455&bvid=BV1Hf4y1L7MF&cid=368390647&page=1&autoplay=0" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
----
-
-### 十周年生贺曲《光与影的对白》
-<iframe class="tv" src="https://player.bilibili.com/player.html?aid=385844016&bvid=BV1dZ4y1Y7bt&cid=771025783&page=1&autoplay=0" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
----
-
-### 十一周年生贺曲《月华舞》
-<iframe class="tv" src="https://player.bilibili.com/player.html?aid=955750433&bvid=BV19W4y1f7hz&cid=1193618405&p=1&autoplay=0" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
----
-
-### 十二周年生贺曲《再声 Recall》
-<iframe class="tv" src="https://player.bilibili.com/player.html?isOutside=true&aid=1056000507&bvid=BV1JH4y1w7Ks&cid=1612471077&p=1&autoplay=0" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
+《地势坤》https://www.bilibili.com/video/BV1tE411X7yQ  地势坤，君子以厚德载物。<br>
+九周年生贺曲《夏虫》https://www.bilibili.com/video/BV1Hf4y1L7MF<br>
+十周年生贺曲《光与影的对白》https://www.bilibili.com/video/BV1dZ4y1Y7bt<br>
+十一周年生贺曲《月华舞》https://www.bilibili.com/video/BV19W4y1f7hz<br>
+十二周年生贺曲《再声 Recall》https://www.bilibili.com/video/BV1JH4y1w7Ks
