@@ -9,7 +9,7 @@ export default defineThemeConfig({
   },
 
   say: {
-    enable: true,
+    enable: false,
     api: '',
     hitokoto: {
       enable: true,
@@ -19,8 +19,8 @@ export default defineThemeConfig({
 
   bg_image: {
     enable: true,
-    url: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
-    dark: 'https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg',
+    url: '/images/background.jpg',
+    dark: '/images/background.jpg',
   },
 
   pages: [

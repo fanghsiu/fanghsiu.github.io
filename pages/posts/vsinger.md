@@ -11,13 +11,6 @@ aplayer: true
 
 ## 华风夏韵 洛水天依
 
-<!-- <meting-js
- id="535936139"
- server="netease"
- type="song"
- theme="#66CCFF">
-</meting-js> -->
-
 | 洛天依 LUO TIANYI | 代表色：<span style="color:#66CCFF">#66CCFF</span> |
 |-----------------|------------------------------------------------|
 | 年龄：15岁         | 生日：7月12日                                      |
@@ -25,6 +18,8 @@ aplayer: true
 | 乐器：麦克         | 声源：山新＆鹿乃                                    |
 
 一个感性、温柔、细致的少女。既有为别人流泪的温柔，也有历经挫折绝不放弃的坚强。擅长用歌声表现自己和他人的感情，并决心成为传递幸福与感动的歌手。
+
+<!-- more -->
 
 ![洛天依](https://res.vsinger.com/images/e4a5e56fa3a1817244195f15ce5dcda9.jpg "洛天依")
 <!-- ![洛天依](https://upload-bbs.miyoushe.com/upload/2024/03/21/163247039/c1a91ff3324480291fbdd8f53ae8cfa2_8808606563787892143.png?x-oss-process=image/format,jpg "洛天依") -->

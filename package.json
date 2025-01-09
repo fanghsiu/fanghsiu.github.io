@@ -1,7 +1,7 @@
 {
   "name": "fanghsiu.github.io",
   "type": "module",
-  "version": "0.22.5",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "npm run fuse && npm run build:ssg",
@@ -13,10 +13,11 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
-    "valaxy": "^0.22.5",
+    "valaxy": "^0.22.6",
     "valaxy-addon-lightgallery": "^0.0.4",
+    "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.0",
-    "valaxy-theme-yun": "^0.22.5"
+    "valaxy-theme-yun": "^0.22.6"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
