@@ -33,13 +33,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       global: true,
       /** @see https://github.com/metowolf/MetingJS */
       props: {
-        id: '8554469081',
+        id: '18940466',
         server: 'netease',
-        type: 'playlist',
+        type: 'song',
         autoplay: true,
         volume: 0.2,
       },
-    })
+    }),
   ],
 
   vite: {
