@@ -25,4 +25,4 @@ tags: [网站收藏]
 
 [Get A Free Node](https://getafreenode.com)
 
-[开发者选项中的Powershell下的勾和应用变灰了怎么恢复，不小心按了应用？](https://zhidao.baidu.com/question/1868857556174798627.html)
+[开发者选项中的Powershell下的勾和应用变灰了怎么恢复,不小心按了应用?](https://zhidao.baidu.com/question/1868857556174798627.html)
