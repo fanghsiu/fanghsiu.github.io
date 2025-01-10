@@ -1,3 +1,3 @@
 # Site
 
-Url: https://www.fanghsiu.top/
+Url: https://www.fanghsiu.top

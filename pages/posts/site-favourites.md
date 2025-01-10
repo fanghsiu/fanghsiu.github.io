@@ -6,12 +6,14 @@ tags: [网站收藏]
 ---
 
 <hr/>
-<p style="text-align:center;color: #EE1C25;"><b>
+<p style="text-align:center;color: #EE1C25;">
+<b>
 富强 民主 文明 和谐<br/>
 自由 平等 公正 法治<br/>
-爱国 敬业 诚信 友善<br/></b>
-</p><hr/>
-
+爱国 敬业 诚信 友善<br/>
+</b>
+</p>
+<hr/>
 
 <!-- more -->
 
