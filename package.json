@@ -15,7 +15,6 @@
   "dependencies": {
     "valaxy": "^0.22.6",
     "valaxy-addon-lightgallery": "^0.0.4",
-    "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-yun": "^0.22.6"
   },

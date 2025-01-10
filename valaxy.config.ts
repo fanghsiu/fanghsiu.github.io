@@ -5,7 +5,6 @@ import generateSitemap from 'vite-ssg-sitemap'
 
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
-import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need
 const safelist = [
@@ -29,17 +28,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       serverURL: 'https://waline.fanghsiu.top',
     }),
     addonLightGallery(),
-    addonMeting({
-      global: true,
-      /** @see https://github.com/metowolf/MetingJS */
-      props: {
-        id: '18940466',
-        server: 'netease',
-        type: 'song',
-        autoplay: true,
-        volume: 0.2,
-      },
-    }),
   ],
 
   vite: {
