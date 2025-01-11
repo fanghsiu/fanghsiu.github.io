@@ -4,13 +4,12 @@ date: 2022-05-01
 updated: 2022-05-02
 categories: [Jetbrains]
 tags: [Jetbrains]
+excerpt_type: ai
 ---
 
 >原文：[Jetbrains系列产品重置试用方法[归档] – 知了](https://zhile.io/2020/11/18/jetbrains-eval-reset-deprecated.html)。
 >
 >**PS：Jetbrains产品2021.3及以上版本不支持离线试用，推荐2021.2及以下。**
-
-<!-- more -->
 
 ## 如何安装
 
