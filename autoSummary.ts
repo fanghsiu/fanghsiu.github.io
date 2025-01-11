@@ -47,7 +47,7 @@ const generateAutoSummary = async (content: string): Promise<string> => {
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0.3,
-    // stop: ["\n"],
+    stop: ["\n"],
   };
 
   const response = await fetch(url, {
@@ -67,7 +67,10 @@ export async function startAISummary() {
   const posts = fs.readdirSync(postsDir);
 
   const promises = posts.map(async (post) => {
-    const postContent = fs.readFileSync(path.join(postsDir, post), "utf-8");
+    const postPath = path.join(postsDir, post)
+    const stats = fs.statSync(postPath);
+    let postContent=''
+    if(stats.isFile()) { postContent = fs.readFileSync(postPath, "utf-8");}
     let { data, content } = matter(postContent);
 
     const shouldGenerateExcerpt = !data.excerpt && data.excerpt_type === "ai";

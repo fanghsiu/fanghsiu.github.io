@@ -1,10 +1,16 @@
 ---
 title: Jetbrains Reset
-date: 2022-05-01
-updated: 2022-05-02
-categories: [Jetbrains]
-tags: [Jetbrains]
+date: 2022-05-01T00:00:00.000Z
+updated: 2022-05-02T00:00:00.000Z
+categories:
+  - Jetbrains
+tags:
+  - Jetbrains
 excerpt_type: ai
+excerpt: >-
+  Jetbrains系列产品的重置方法包括通过插件市场安装和下载安装两种方式。首先，需要在Settings/Preferences... ->
+  Plugins中手动添加第三方插件仓库地址，然后搜索并安装IDE Eval
+  Reset插件。如果遇到问题，如网络不通或插件无法安装，可以尝试下载zip包并通过IDE进行安装。此外，还提供了原仓库及文件备份链接供用户参考。
 ---
 
 >原文：[Jetbrains系列产品重置试用方法[归档] – 知了](https://zhile.io/2020/11/18/jetbrains-eval-reset-deprecated.html)。
