@@ -10,7 +10,7 @@ var openaiConfig = {
   baseUrl: "https://spark-api-open.xf-yun.com",
   apiKey: "OCKWMkTbJtvpUlXXSTTj:ZjPhMNTACsSbVwSvLFuW",
   prompt:
-    "你是一个文章摘要生成助手，你要根据用户所提供的文章进行摘要，但你不需要提出建议和进行文本换行，同时不要直接截取文章内容，要进行提练和摘要，总计内容150字左右。",
+    "你是一个文章摘要生成助手，你要根据用户所提供的文章进行摘要，但你不需要提出建议和进行文本换行，同时不要直接截取文章内容，要进行提练和摘要，回答只用纯文字，总计内容150字左右。",
 };
 
 if (!openaiConfig.apiKey) {
