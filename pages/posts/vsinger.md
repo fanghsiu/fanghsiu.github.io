@@ -7,6 +7,7 @@ tags: [Vsinger, 洛天依]
 end: true
 top: 15
 aplayer: true
+excerpt_type: ai
 ---
 
 ## 华风夏韵 洛水天依

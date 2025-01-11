@@ -4,7 +4,7 @@ date: 2023-11-16
 updated: 2023-11-17
 categories: [Jetbrains]
 tags: [Jetbrains]
-excerpt_type: ai
+# excerpt_type: ai
 ---
 
 自己生成根证书签名,并生成激活码配合 ja-netfilter 激活 Jetbrains 全家桶.
