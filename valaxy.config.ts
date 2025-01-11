@@ -6,8 +6,6 @@ import generateSitemap from 'vite-ssg-sitemap'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 
-import { startAISummary } from './addon/autoSummary'
-
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -45,13 +43,6 @@ export default defineValaxyConfig<UserThemeConfig>({
           },],
         },)
       },
-    },
-  },
-
-  hooks: {
-    "build:before": async () => {
-      console.log("start auto summary");
-      await startAISummary();
     },
   },
 })

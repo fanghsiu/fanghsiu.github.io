@@ -8,8 +8,6 @@ tags: [ssh, Windows]
 
 随便写写
 
-<!-- more -->
-
 ## 下载地址
 
 [Download Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  

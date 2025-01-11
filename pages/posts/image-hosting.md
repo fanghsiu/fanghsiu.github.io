@@ -7,8 +7,6 @@ tags: [图床]
 cover: https://s21.ax1x.com/2024/12/06/pATsFBR.jpg
 ---
 
-<!-- more -->
-
 ## vercel 反代 jsdelivr
 vercel 反代 jsdelivr，速度感觉还不错。  
 参考[荣6的jsDelivr镜像站](https://jsd.nmmsl.top/)

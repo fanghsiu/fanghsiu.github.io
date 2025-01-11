@@ -7,8 +7,6 @@ tags: [python, selenium]
 end: true
 ---
 
-<!-- more -->
-
 ## 我的其他相关文章
 
 <AppLink href='./python-using-selenium-on-edge'>Python: 在 Edge 上使用 selenium</AppLink>

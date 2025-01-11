@@ -6,8 +6,6 @@ categories: [Python]
 tags: [python, selenium]
 ---
 
-<!-- more -->
-
 :::tip
 此处写于 2023-11-09
 

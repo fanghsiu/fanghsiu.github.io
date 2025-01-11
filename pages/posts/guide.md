@@ -8,8 +8,6 @@ tags: [2FA, Windows terminal]
 
 记录一些问题及解决方法。
 
-<!-- more -->
-
 ## Windows terminal
 Windows terminal 使用 Gitbash 时闪烁问题  
 新建`~/.inputrc`文件, 写入`set bell-style none`或`set bell-style audible`.  

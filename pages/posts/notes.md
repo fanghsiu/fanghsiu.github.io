@@ -9,8 +9,6 @@ cover: https://s21.ax1x.com/2024/03/14/pFgi4AJ.jpg
 
 记录一些收获
 
-<!-- more -->
-
 ## Windows 系统更改 VsCode 扩展安装位置
 CMD 管理员模式运行，自行替换后面路径。
 ```cmd
