@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 指南
 date: 2024-02-02
 updated: 2024-03-28

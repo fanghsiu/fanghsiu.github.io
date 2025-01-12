@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 友人帐
 keywords: 链接
 description: 方脩的小伙伴们

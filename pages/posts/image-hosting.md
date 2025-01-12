@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 图床
 date: 2023-12-28
 updated: 2024-12-06

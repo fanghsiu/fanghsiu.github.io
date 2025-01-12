@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 网址收藏夹
 # hide: index
 # cover: https://s21.ax1x.com/2024/08/10/pASwSXj.png

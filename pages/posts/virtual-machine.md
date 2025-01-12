@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Windows 11 虚拟机
 date: 2023-03-08
 updated: 2023-03-08

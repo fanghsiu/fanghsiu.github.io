@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 随笔
 date: 2023-02-28
 updated: 2023-02-28

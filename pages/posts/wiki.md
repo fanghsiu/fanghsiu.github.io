@@ -1,4 +1,5 @@
 ---
+layout: post
 title: FangHsiu's WiKi
 type: link
 url: http://wiki.fanghsiu.top

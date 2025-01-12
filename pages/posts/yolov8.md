@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 记第一次 YOLOv8 检测训练
 date: 2023-07-02
 updated: 2023-07-06

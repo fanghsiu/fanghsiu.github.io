@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Android & Windows 工具
 date: 2023-10-20
 updated: 2023-10-20

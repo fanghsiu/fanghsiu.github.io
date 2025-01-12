@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 功能测试
 date: 2023-06-01
 updated: 2023-06-01

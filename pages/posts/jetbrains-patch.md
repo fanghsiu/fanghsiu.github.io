@@ -1,4 +1,5 @@
 ---
+layout: post
 title: JetBrains Patch
 date: 2023-11-16
 updated: 2023-11-17

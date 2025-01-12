@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 铜雀台   # Lovely Girls
 keywords: 链接
 description: 方脩的小爱妃们

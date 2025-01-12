@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Hi!
 date: 2022-01-01
 updated: 2022-01-01
