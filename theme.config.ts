@@ -25,6 +25,21 @@ export default defineThemeConfig({
 
   pages: [
     {
+      name: '归档',
+      url: '/archives',
+      icon: 'i-ri-archive-line'
+    },
+    {
+      name: '分类',
+      url: '/categories',
+      icon: 'i-ri-folder-2-line'
+    },
+    {
+      name: '标签',
+      url: '/tags',
+      icon: 'i-ri-price-tag-3-line'
+    },
+    {
       name: '流光相册',
       url: '/albums',
       icon: 'i-ri-gallery-line',
