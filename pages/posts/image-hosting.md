@@ -33,7 +33,7 @@ vercel 反代 jsdelivr，速度感觉还不错。
 ## 路过图床
 https://imgse.com/  
 [关于我们 - 路过图床](https://imgse.com/page/about)  
-[服务条款 - 路过图床](https://imgse.com/page/tos)<div color='red'>不让放卡通漫画(包括ACG/二次元/动漫游戏等)。</div>  
+[服务条款 - 路过图床](https://imgse.com/page/tos) <span color="red">禁止上传卡通漫画(包括ACG/二次元/动漫游戏等)。</span>  
 :::info
 [pATsFBR](https://s21.ax1x.com/2024/12/06/pATsFBR.jpg) ( 340KB )
 :::
@@ -68,4 +68,3 @@ src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c
 :::
 
 <pic src="https://p.ananas.chaoxing.com/star3/origin/9a481b69cf39dbc421c962958240507c.png" alt="luotianyi_swimsuit" caption="luotianyi_swimsuit"/>
-
