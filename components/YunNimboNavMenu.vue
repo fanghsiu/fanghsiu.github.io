@@ -59,16 +59,15 @@ const app = useAppStore()
           @click="yunApp.fullscreenMenu.toggle()"
         />
         <YunNavMenuItem icon="i-ri-home-4-line" to="/" title="主页" />
-        <YunNavMenuItem icon="i-ri-article-line" to="/posts" title="博客文章" />
-        <YunNavMenuItem icon="i-ri-archive-line" to="/archives" title="归档" />
-        <YunNavMenuItem icon="i-ri-folder-2-line" to="/categories" title="分类" />
-        <YunNavMenuItem icon="i-ri-price-tag-3-line" to="/tags" title="标签" />
+        <YunNavMenuItem icon="i-ri-article-line" to="/page/1" title="博客文章" />
         <template v-if="yunApp.size.isLg">
           <!-- <YunNavMenuItem
             icon="i-ri-article-line" to="/posts/"
             title="博客文章"
           /> -->
-
+          <YunNavMenuItem icon="i-ri-archive-line" to="/archives" title="归档" />
+          <YunNavMenuItem icon="i-ri-folder-2-line" to="/categories" title="分类" />
+          <YunNavMenuItem icon="i-ri-price-tag-3-line" to="/tags" title="标签" />
           <YunNavMenuItem
             v-for="item, i in themeConfig.pages"
             :key="i"

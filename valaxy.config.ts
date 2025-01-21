@@ -1,8 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
 import { UserThemeConfig } from 'valaxy-theme-yun'
-
 import generateSitemap from 'vite-ssg-sitemap'
-
+// addon
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 
