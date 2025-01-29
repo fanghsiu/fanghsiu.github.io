@@ -1,3 +1,3 @@
-# Site
+# My blog
 
-Url: https://www.fanghsiu.top
+Url: https://fanghsiu.top
