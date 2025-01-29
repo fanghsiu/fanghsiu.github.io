@@ -19,8 +19,7 @@ $$\color{#6CF}y = ax^2 + bx + c$$
 
 <!-- valaxy-encrypt-start:sssss -->
 
-![](./background.jpg)
+## Page Frontmatter
+<pre>{{ frontmatter }}</pre>
 
 <!-- valaxy-encrypt-end -->
-
-![](./background.jpg)

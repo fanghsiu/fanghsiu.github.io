@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hi~ o(*￣▽￣*)ブ
-date: 2002-05-25 00:00:00
-updated: 2002-05-25 00:00:00
+date: 2002-05-25
+updated: 2002-05-25
 # categories: []
 # tags: []
 ---

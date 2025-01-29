@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的奋斗
-date: 2002-05-25 00:00:00
+date: 2002-05-25
 categories: [我的人生]
 tags: [我的人生]
 top: 1
