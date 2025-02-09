@@ -37,6 +37,10 @@ https://live.bilibili.com/1546736
 
 ## 我喜欢的音乐
 
+《勾指起誓》https://www.bilibili.com/video/BV1Jb411U7u2<br>
+《追光使者》https://www.bilibili.com/video/BV14s411Y7Y3<br>
+《万分之一的光》https://www.bilibili.com/video/BV1Tp4y1S7cu<br>
+《一花依世界》https://www.bilibili.com/video/BV1Vs411H7JH<br>
 《天行健》https://www.bilibili.com/video/BV1yW411t7W6  天行健，君子以自强不息。<br>
 《地势坤》https://www.bilibili.com/video/BV1tE411X7yQ  地势坤，君子以厚德载物。<br>
 九周年生贺曲《夏虫》https://www.bilibili.com/video/BV1Hf4y1L7MF<br>
