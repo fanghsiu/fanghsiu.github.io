@@ -21,6 +21,7 @@ export default defineThemeConfig({
     enable: true,
     url: "/images/background.jpg",
     dark: "/images/background.jpg",
+    opacity: 0.25,
   },
 
   pages: [
