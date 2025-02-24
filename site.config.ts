@@ -40,7 +40,7 @@ export default defineSiteConfig({
     },
     {
       name: "E-Mail",
-      link: "mailto:fanghsiu@foxmail.com",
+      link: "mailto:fanghsiu@outlook.com",
       icon: "i-ri-mail-line",
       color: "#8E71C1",
     },
