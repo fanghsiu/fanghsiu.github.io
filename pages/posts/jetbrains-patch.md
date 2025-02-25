@@ -50,7 +50,7 @@ PREFIX,https://account.jetbrains.com/lservice/rpc/validateKey.action
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ pycryptodome cryptography
 ```
 
-:::details 证书生成代码
+### 证书生成代码
 ```python
 import datetime
 
@@ -100,12 +100,10 @@ with open("ca.key", "wb") as fout:
 with open("ca.crt", "wb") as fout:
     fout.write(public_bytes)
 ```
-:::
 
+### 激活码生成代码
 注意将下面代码中 certBase64 的值更改为生成的 ca.crt 的值. 输出值分别为 power.conf配置, 激活码.
-
-:::details 激活码生成代码
-```python
+```python{40}
 import base64
 
 from Crypto.Hash import SHA1, SHA256
@@ -181,7 +179,6 @@ with open('ca.key') as prifile:
     result = licenseId + "-" + licensePartBase64.decode('utf-8') + "-" + sig_results.decode('utf-8') + "-" + certBase64
     print(result)
 ```
-:::
 
 power.conf 配置完成时,就可以使用激活码激活了.
 
