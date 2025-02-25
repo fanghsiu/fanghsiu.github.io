@@ -5,6 +5,7 @@ date: 2023-06-01
 updated: 2023-06-01
 categories: [Valaxy]
 tags: [测试]
+codeHeightLimit: 300
 ---
 
 <!-- @include:./included.md{5,} -->
@@ -35,3 +36,38 @@ $$\color{#EE1C25}y = ax^2 + bx + c$$
 ### Page Frontmatter
 <pre>{{ frontmatter }}</pre>
 <!-- valaxy-encrypt-end -->
+
+---
+
+## CODE
+```ts:line-numbers
+import type { ThemeConfig } from 'valaxy-theme-yun'
+import { defineValaxyConfig } from 'valaxy'
+
+const safelist = [
+  'i-ri-home-line',
+]
+
+export default defineValaxyConfig<ThemeConfig>({
+  // site config see site.config.ts or write in siteConfig
+  // siteConfig: {},
+
+  theme: 'yun',
+  themeConfig: {
+
+    banner: {
+      enable: true,
+      title: '云游君的小站',
+    },
+
+    notice: {
+      enable: true,
+      content: '公告测试',
+    },
+  },
+
+  unocss: {
+    safelist,
+  },
+})
+```
