@@ -1,7 +1,7 @@
-# name: GitHub Pages
+name: GitHub Pages
 
-# on:
-#   workflow_dispatch: Null
+on:
+  workflow_dispatch:
 #   push:
 #     branches:
 #       The branch where the project source code resides
