@@ -10,7 +10,7 @@ on:
 #       - master
 #       - valaxy
 
-# jobs:
+jobs:
 #   build:
 #     runs-on: ${{ matrix.os }}
 
