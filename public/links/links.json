@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://ssrcn.github.io/",
+        "avatar": "https://ssrcn.github.io/avatar.jpg",
+        "name": "叶落知秋",
+        "blog": "休伯利安",
+        "desc": "永恒轮回的不沉之船",
+        "color": "#66ccff"
+    },
+    {
+        "url": "https://wiki.fanghsiu.top/",
+        "avatar": "https://wiki.fanghsiu.top/images/logo.svg",
+        "name": "WiKi",
+        "blog": "FangHsiu's WiKi",
+        "desc": "由 VitePress 生成的静态 WiKi 网站",
+        "color": "#66ccff"
+    },
+    {
+        "url": "https://www.yunyoujun.cn/",
+        "avatar": "https://www.yunyoujun.cn/images/avatar.jpg",
+        "name": "云游君",
+        "blog": "云游君的小站",
+        "desc": "希望能成为一个有趣的人",
+        "color": "#66ccff"
+    }
+]

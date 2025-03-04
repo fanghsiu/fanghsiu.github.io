@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /images/qq.png
+Disallow: /images/wx.png
+
+Sitemap: https://www.fanghsiu.top/sitemap.xml

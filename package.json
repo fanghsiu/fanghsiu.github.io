@@ -1,0 +1,26 @@
+{
+  "name": "fanghsiu.github.io",
+  "type": "module",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run fuse && npm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg --log=info",
+    "clean": "sh sh/clean.sh",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview",
+    "fuse": "valaxy fuse",
+    "new": "valaxy new"
+  },
+  "dependencies": {
+    "valaxy": "^0.22.13",
+    "valaxy-addon-lightgallery": "^0.0.4",
+    "valaxy-addon-waline": "^0.2.0",
+    "valaxy-theme-yun": "^0.22.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
