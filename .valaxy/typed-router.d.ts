@@ -43,7 +43,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/python/': RouteRecordInfo<'/posts/python/', '/posts/python', Record<never, never>, Record<never, never>>,
     '/posts/python/python-using-selenium-on-edge': RouteRecordInfo<'/posts/python/python-using-selenium-on-edge', '/posts/python/python-using-selenium-on-edge', Record<never, never>, Record<never, never>>,
     '/posts/python/selenium': RouteRecordInfo<'/posts/python/selenium', '/posts/python/selenium', Record<never, never>, Record<never, never>>,
-    '/posts/sdau': RouteRecordInfo<'/posts/sdau', '/posts/sdau', Record<never, never>, Record<never, never>>,
     '/posts/site-favourites': RouteRecordInfo<'/posts/site-favourites', '/posts/site-favourites', Record<never, never>, Record<never, never>>,
     '/posts/test/': RouteRecordInfo<'/posts/test/', '/posts/test', Record<never, never>, Record<never, never>>,
     '/posts/test/included': RouteRecordInfo<'/posts/test/included', '/posts/test/included', Record<never, never>, Record<never, never>>,
