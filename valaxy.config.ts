@@ -48,4 +48,8 @@ export default defineValaxyConfig<UserThemeConfig>({
   markdown: {
     lineNumbers: true,
   },
+
+  groupIcons: {
+    customIcon: {}
+  }
 })
