@@ -2,7 +2,7 @@ import { defineSiteConfig } from "valaxy"
 
 export default defineSiteConfig({
 
-  url: "https://fanghsiu.top",
+  url: "https://fanghsiu.cn",
 
   lang: "zh-CN",
 
@@ -15,7 +15,7 @@ export default defineSiteConfig({
   author: {
     name: "方脩",
     email: "fanghsiu@foxmail.com",
-    link: "https://fanghsiu.top",
+    link: "https://fanghsiu.cn",
     avatar: "/images/avatar.png",
     status: {
       emoji: "🌐",
