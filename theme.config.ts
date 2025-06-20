@@ -24,6 +24,17 @@ export default defineThemeConfig({
     opacity: 0.25,
   },
 
+  nav:[
+    { text: '博客文章', link: '/page/1', icon: 'i-ri-article-line' },
+    { text: '归档', link: '/archives', icon: 'i-ri-archive-line' },
+    { text: '分类', link: '/categories', icon: 'i-ri-folder-2-line' },
+    { text: '标签', link: '/tags', icon: 'i-ri-price-tag-3-line' },
+    { text: '相册', link: '/albums', icon: 'i-ri-gallery-line' },
+    { text: '友情链接', link: '/links', icon: 'i-ri-user-star-line' },
+    { text: '红颜列表', link: '/girls', icon: 'i-ri-user-heart-line' },
+    // { text: '赞助者们', link: '/sponsors', icon: 'i-ri-heart-fill' },
+  ],
+
   pages: [
     // {
     //   name: "归档",

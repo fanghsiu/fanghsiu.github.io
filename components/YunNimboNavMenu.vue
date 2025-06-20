@@ -15,7 +15,7 @@ const themeConfig = useThemeConfig()
 const showMenu = ref(false)
 const route = useRoute()
 onMounted(() => {
-  if (route.meta.layout === "home") {
+  if (route.meta.layout === 'home') {
     setTimeout(() => {
       showMenu.value = true
     }, 600)
@@ -58,22 +58,19 @@ const app = useAppStore()
           z="$yun-z-menu-btn"
           @click="yunApp.fullscreenMenu.toggle()"
         />
-        <YunNavMenuItem icon="i-ri-home-4-line" to="/" title="主页" />
-        <YunNavMenuItem icon="i-ri-article-line" to="/page/1" title="博客文章" />
+        <YunNavMenuItem icon="i-ri-home-4-line" to="/" />
         <template v-if="yunApp.size.isLg">
           <!-- <YunNavMenuItem
             icon="i-ri-article-line" to="/posts/"
             title="博客文章"
           /> -->
-          <YunNavMenuItem icon="i-ri-archive-line" to="/archives" title="归档" />
-          <YunNavMenuItem icon="i-ri-folder-2-line" to="/categories" title="分类" />
-          <YunNavMenuItem icon="i-ri-price-tag-3-line" to="/tags" title="标签" />
+
           <YunNavMenuItem
-            v-for="item, i in themeConfig.pages"
+            v-for="item, i in themeConfig.nav"
             :key="i"
             :icon="item.icon"
-            :to="item.url"
-            :title="item.name"
+            :to="item.link"
+            :title="item.text"
           />
         </template>
       </div>
@@ -111,8 +108,8 @@ const app = useAppStore()
 </template>
 
 <style lang="scss" scoped>
-@use "sass:map";
-@use "valaxy-theme-yun/styles/vars.scss" as *;
+@use 'sass:map';
+@use 'valaxy-theme-yun/styles/vars.scss' as *;
 @use "valaxy/client/styles/mixins/index.scss" as *;
 
 .yun-nav-menu {
@@ -131,8 +128,8 @@ const app = useAppStore()
 
   align-items: center;
   justify-content: space-between;
-  height: 50px;
-  transition: all 0.5s map.get($cubic-bezier, "ease-in");
+  height: var(--yun-nav-height, 50px);
+  transition: all 0.5s map.get($cubic-bezier, 'ease-in');
 
   &.play {
     top: 0;
