@@ -15,6 +15,7 @@
     "new": "valaxy new"
   },
   "dependencies": {
+    "unplugin-vue-router": "^0.14.0",
     "valaxy": "^0.23.6",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-waline": "^0.2.1",
