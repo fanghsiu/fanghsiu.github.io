@@ -16,6 +16,22 @@ top: 1
 - 二〇一六 至 二〇一九，高级中等教育
 - 二〇一九 至 二〇二三，普通全日制-普通高等教育-本科-工学学士学位
 
-> [!NOTE]
-> Information the user should notice even if skimming
+::: info
+This is an info box.
+:::
 
+::: tip
+This is a tip.
+:::
+
+::: warning
+This is a warning.
+:::
+
+::: danger
+This is a dangerous warning.
+:::
+
+::: details
+This is a details block.
+:::
