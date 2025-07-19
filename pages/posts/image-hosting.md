@@ -12,9 +12,9 @@ cover: https://s21.ax1x.com/2024/12/06/pATsFBR.jpg
 vercel 反代 jsdelivr，速度感觉还不错。  
 参考[荣6的jsDelivr镜像站](https://jsd.nmmsl.top/)
 :::info
-[luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg) ( 583KB )
+[luotianyi_swimsuit_compress](https://cdn.fanghsiu.cn/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg) ( 583KB )
 :::
-![luotianyi_swimsuit_compress](https://cdn.fanghsiu.top/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
+![luotianyi_swimsuit_compress](https://cdn.fanghsiu.cn/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
 
 
 ## github pages 

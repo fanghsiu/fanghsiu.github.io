@@ -2,7 +2,7 @@
 layout: post
 title: FangHsiu's WiKi
 type: link
-url: http://wiki.fanghsiu.top
+url: http://wiki.fanghsiu.cn
 date: 2022-10-28 
 updated: 2022-10-28
 categories: []

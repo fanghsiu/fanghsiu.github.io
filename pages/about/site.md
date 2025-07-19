@@ -61,4 +61,4 @@ end: false
 - 2024-06-13 域名 fanghsiu.top 再续一年，花费 32￥。
 
 ### 二〇二五
-- 暂时无事发生
+- 更换 fanghsiu.cn 域名
