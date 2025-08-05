@@ -25,7 +25,7 @@ export default defineThemeConfig({
   },
 
   nav:[
-    // { text: '博客文章', link: '/page/1', icon: 'i-ri-article-line' },
+    { text: '博客文章', link: '/page/1', icon: 'i-ri-article-line' },
     { text: '归档', link: '/archives', icon: 'i-ri-archive-line' },
     { text: '分类', link: '/categories', icon: 'i-ri-folder-2-line' },
     { text: '标签', link: '/tags', icon: 'i-ri-price-tag-3-line' },
