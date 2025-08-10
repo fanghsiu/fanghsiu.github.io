@@ -42,6 +42,11 @@ export default defineValaxyConfig<UserThemeConfig>({
         },)
       },
     },
+    // server: {
+    //   watch: {
+    //     usePolling: true
+    //   }
+    // }
   },
 
   markdown: {
