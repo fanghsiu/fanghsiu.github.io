@@ -54,4 +54,168 @@ declare module 'vue-router/auto-routes' {
     '/posts/yolov8': RouteRecordInfo<'/posts/yolov8', '/posts/yolov8', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'node_modules/valaxy-theme-yun/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'node_modules/valaxy/client/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'pages/404.md': {
+      routes: '/404'
+      views: never
+    }
+    'pages/about/index.md': {
+      routes: '/about/'
+      views: never
+    }
+    'pages/about/site.md': {
+      routes: '/about/site'
+      views: never
+    }
+    'pages/albums/index.md': {
+      routes: '/albums/'
+      views: never
+    }
+    'pages/albums/bh3.md': {
+      routes: '/albums/bh3'
+      views: never
+    }
+    'pages/albums/vsinger.md': {
+      routes: '/albums/vsinger'
+      views: never
+    }
+    'pages/archives/index.md': {
+      routes: '/archives/'
+      views: never
+    }
+    'pages/categories/index.md': {
+      routes: '/categories/'
+      views: never
+    }
+    'pages/girls/index.md': {
+      routes: '/girls/'
+      views: never
+    }
+    'pages/links/index.md': {
+      routes: '/links/'
+      views: never
+    }
+    'node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+      routes: '/page/[page]'
+      views: never
+    }
+    'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+      routes: '/posts/'
+      views: never
+    }
+    'pages/posts/deepseek.md': {
+      routes: '/posts/deepseek'
+      views: never
+    }
+    'pages/posts/fix-winre.md': {
+      routes: '/posts/fix-winre'
+      views: never
+    }
+    'pages/posts/guide.md': {
+      routes: '/posts/guide'
+      views: never
+    }
+    'pages/posts/hi.md': {
+      routes: '/posts/hi'
+      views: never
+    }
+    'pages/posts/image-hosting.md': {
+      routes: '/posts/image-hosting'
+      views: never
+    }
+    'pages/posts/jetbrains-patch.md': {
+      routes: '/posts/jetbrains-patch'
+      views: never
+    }
+    'pages/posts/jetbrains-reset.md': {
+      routes: '/posts/jetbrains-reset'
+      views: never
+    }
+    'pages/posts/life.md': {
+      routes: '/posts/life'
+      views: never
+    }
+    'pages/posts/notes.md': {
+      routes: '/posts/notes'
+      views: never
+    }
+    'pages/posts/python/index.md': {
+      routes: '/posts/python/'
+      views: never
+    }
+    'pages/posts/python/python-using-selenium-on-edge.md': {
+      routes: '/posts/python/python-using-selenium-on-edge'
+      views: never
+    }
+    'pages/posts/python/selenium.md': {
+      routes: '/posts/python/selenium'
+      views: never
+    }
+    'pages/posts/site-favourites.md': {
+      routes: '/posts/site-favourites'
+      views: never
+    }
+    'pages/posts/test/index.md': {
+      routes: '/posts/test/'
+      views: never
+    }
+    'pages/posts/test/included.md': {
+      routes: '/posts/test/included'
+      views: never
+    }
+    'pages/posts/tools.md': {
+      routes: '/posts/tools'
+      views: never
+    }
+    'pages/posts/virtual-machine.md': {
+      routes: '/posts/virtual-machine'
+      views: never
+    }
+    'pages/posts/vsinger.md': {
+      routes: '/posts/vsinger'
+      views: never
+    }
+    'pages/posts/wiki.md': {
+      routes: '/posts/wiki'
+      views: never
+    }
+    'pages/posts/yolov8.md': {
+      routes: '/posts/yolov8'
+      views: never
+    }
+    'pages/tags/index.md': {
+      routes: '/tags/'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }
