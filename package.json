@@ -15,8 +15,8 @@
     "new": "valaxy new"
   },
   "dependencies": {
-    "valaxy": "^0.26.3",
-    "valaxy-theme-yun": "^0.26.3"
+    "valaxy": "^0.26.4",
+    "valaxy-theme-yun": "^0.26.4"
   },
   "devDependencies": {
     "typescript": "^5.8.3",
