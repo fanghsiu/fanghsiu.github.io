@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Hi~ o(*￣▽￣*)ブ
-date: 2002-05-25
-updated: 2002-05-25
+date: 2021-07-12
+updated: 2021-07-12
 # categories: []
 # tags: []
+top: 2
 ---
 
 ---

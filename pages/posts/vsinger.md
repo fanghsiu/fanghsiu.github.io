@@ -8,7 +8,13 @@ tags: [Vsinger, 洛天依]
 end: true
 top: 1
 aplayer: true
+excerpt: 请不要在意发布时间，那是洛天依 V3 声库发布时间，随手填的。
 ---
+
+::: info
+请不要在意本文发布时间，那是洛天依 V3 声库发布时间，随手填的。
+:::
+
 
 ## 华风夏韵 洛水天依
 
@@ -35,7 +41,7 @@ https://live.bilibili.com/1546736
 
 ---
 
-## 我喜欢的音乐
+<!-- ## 我喜欢的音乐
 
 《勾指起誓》https://www.bilibili.com/video/BV1Jb411U7u2<br>
 《追光使者》https://www.bilibili.com/video/BV14s411Y7Y3<br>
@@ -46,4 +52,4 @@ https://live.bilibili.com/1546736
 九周年生贺曲《夏虫》https://www.bilibili.com/video/BV1Hf4y1L7MF<br>
 十周年生贺曲《光与影的对白》https://www.bilibili.com/video/BV1dZ4y1Y7bt<br>
 十一周年生贺曲《月华舞》https://www.bilibili.com/video/BV19W4y1f7hz<br>
-十二周年生贺曲《再声 Recall》https://www.bilibili.com/video/BV1JH4y1w7Ks
+十二周年生贺曲《再声 Recall》https://www.bilibili.com/video/BV1JH4y1w7Ks -->

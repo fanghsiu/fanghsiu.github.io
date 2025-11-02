@@ -72,7 +72,7 @@ export default defineThemeConfig({
   ],
 
   footer: {
-    since: 2002,
+    since: 2021,
     icon: {
       enable: true,
       name: "i-ri-cloud-line",
