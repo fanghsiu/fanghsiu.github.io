@@ -135,3 +135,12 @@ curl -L ip.tool.lu
 ```bash
 curl myip.ipip.net
 ```
+
+## Miniconda
+```txt
+%WINDIR%\System32\cmd.exe "/K" D:\Programs\miniconda3\Scripts\activate.bat D:\Programs\miniconda3
+```
+
+```txt
+%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'D:\Programs\miniconda3\shell\condabin\conda-hook.ps1' ; conda activate 'D:\Programs\miniconda3' "
+```
