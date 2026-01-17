@@ -121,9 +121,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/deepseek': RouteRecordInfo<
-      '/posts/deepseek',
-      '/posts/deepseek',
+    '/posts/2026': RouteRecordInfo<
+      '/posts/2026',
+      '/posts/2026',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -365,9 +365,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/deepseek.md': {
+    'pages/posts/2026.md': {
       routes:
-        | '/posts/deepseek'
+        | '/posts/2026'
       views:
         | never
     }
