@@ -12,6 +12,8 @@ export default defineSiteConfig({
 
   favicon: "/favicon.ico",
 
+  timezone: 'Asia/Shanghai',
+
   author: {
     name: "方脩",
     email: "fanghsiu@foxmail.com",
