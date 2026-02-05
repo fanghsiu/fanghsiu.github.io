@@ -42,16 +42,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         },)
       },
     },
-    // server: {
-    //   watch: {
-    //     usePolling: true
-    //   }
-    // },
-    build: {
-      rollupOptions: {
-        external: ['vue-router', 'vue']
-      }
-    }
   },
 
   markdown: {
