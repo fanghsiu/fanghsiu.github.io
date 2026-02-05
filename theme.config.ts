@@ -81,9 +81,6 @@ export default defineThemeConfig({
       title: "方脩",
     },
     powered: true,
-    beian: {
-      enable: false,
-      icp: "",
-    },
+    
   },
 })
