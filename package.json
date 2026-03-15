@@ -15,7 +15,7 @@
     "new": "valaxy new"
   },
   "dependencies": {
-    "valaxy": "^0.28.0-beta.1",
+    "valaxy": "^0.28.0-beta.2",
     "valaxy-theme-yun": "^0.28.0-beta.1"
   },
   "devDependencies": {
