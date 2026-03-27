@@ -1,7 +1,8 @@
 import { defineValaxyConfig } from "valaxy"
 import { UserThemeConfig } from "valaxy-theme-yun"
 import generateSitemap from "vite-ssg-sitemap"
-// addon
+
+// @ts-ignore
 import { addonWaline } from "valaxy-addon-waline"
 import { addonLightGallery } from "valaxy-addon-lightgallery"
 
@@ -24,7 +25,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   addons: [
     addonWaline({
-      serverURL: "https://waline.fanghsiu.cn",
+      serverURL: "https://waline.fanghsiu.cn"
     }),
     addonLightGallery(),
   ],
