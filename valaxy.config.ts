@@ -2,8 +2,7 @@ import { defineValaxyConfig } from "valaxy"
 import { UserThemeConfig } from "valaxy-theme-yun"
 import generateSitemap from "vite-ssg-sitemap"
 
-// @ts-ignore
-import { addonWaline } from "valaxy-addon-waline"
+import { addonWaline } from "valaxy-addon-waline/index.js"
 import { addonLightGallery } from "valaxy-addon-lightgallery"
 
 // add icons what you will need
