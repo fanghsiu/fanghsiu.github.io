@@ -3,7 +3,6 @@
     "target": "ESNext",
     "jsx": "preserve",
     "lib": ["DOM", "ESNext"],
-    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
@@ -13,7 +12,6 @@
     "types": [
       "vite/client",
       "valaxy/client",
-      "vite-plugin-vue-layouts/client"
     ],
     "strict": true,
     "strictNullChecks": true,

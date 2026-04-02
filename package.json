@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg && npm run rss && npm run fuse",
+    "build": "npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "clean": "sh sh/clean.sh",
@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "valaxy": "^0.28.4",
-    "valaxy-theme-yun": "^0.28.4"
+    "valaxy-theme-yun": "^0.28.4",
+    "vue-router": "^5.0.4"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
