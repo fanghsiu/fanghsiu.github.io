@@ -29,20 +29,20 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonLightGallery(),
   ],
 
-  // vite: {
-  //   ssgOptions: {
-  //     onFinished() {
-  //       generateSitemap({
-  //         hostname: "https://fanghsiu.cn",
-  //         robots: [{
-  //           userAgent: "*",
-  //           allow: "/",
-  //           disallow: ["/images/qq.png", "/images/wx.png"],
-  //         },],
-  //       },)
-  //     },
-  //   },
-  // },
+  vite: {
+    ssgOptions: {
+      onFinished() {
+        generateSitemap({
+          hostname: "https://fanghsiu.cn",
+          robots: [{
+            userAgent: "*",
+            allow: "/",
+            disallow: ["/images/qq.png", "/images/wx.png"],
+          },],
+        },)
+      },
+    },
+  },
 
   markdown: {
     lineNumbers: true,
