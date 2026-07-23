@@ -14,11 +14,15 @@ import type {
   ParamValueZeroOrMore,
   ParamValueZeroOrOne,
 } from 'vue-router'
+import type {
+  _ExtractParamParserType,
+} from 'vue-router/experimental'
 
 declare module 'vue-router' {
   interface TypesConfig {
-    ParamParsers:
-      | never
+    _ParamParsers: {}
+    RouteNamedMap: import('vue-router/auto-routes').RouteNamedMap
+    _RouteFileInfoMap: import('vue-router/auto-routes')._RouteFileInfoMap
   }
 }
 
@@ -285,22 +289,28 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_0d8e21b866e9cf0ae849584a1d02c007/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
+      pathParamNames:
+        | never
     }
-    'node_modules/.pnpm/valaxy@0.28.4_@babel+parser_6046c482f2cae9a8ea4fdf503856ded0/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
         | never
+      pathParamNames:
+        | 'path'
     }
     'pages/404.md': {
       routes:
         | '/404'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/about/index.md': {
@@ -308,11 +318,15 @@ declare module 'vue-router/auto-routes' {
         | '/about/'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/about/site.md': {
       routes:
         | '/about/site'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/albums/index.md': {
@@ -320,11 +334,15 @@ declare module 'vue-router/auto-routes' {
         | '/albums/'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/albums/bh3.md': {
       routes:
         | '/albums/bh3'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/albums/vsinger.md': {
@@ -332,11 +350,15 @@ declare module 'vue-router/auto-routes' {
         | '/albums/vsinger'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/archives/index.md': {
       routes:
         | '/archives/'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/categories/index.md': {
@@ -344,11 +366,15 @@ declare module 'vue-router/auto-routes' {
         | '/categories/'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/girls/index.md': {
       routes:
         | '/girls/'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/links/index.md': {
@@ -356,17 +382,23 @@ declare module 'vue-router/auto-routes' {
         | '/links/'
       views:
         | never
+      pathParamNames:
+        | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_0d8e21b866e9cf0ae849584a1d02c007/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
+      pathParamNames:
+        | 'page'
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_0d8e21b866e9cf0ae849584a1d02c007/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/2026.md': {
@@ -374,11 +406,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/2026'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/fix-winre.md': {
       routes:
         | '/posts/fix-winre'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/guide.md': {
@@ -386,11 +422,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/guide'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/hi.md': {
       routes:
         | '/posts/hi'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/image-hosting.md': {
@@ -398,11 +438,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/image-hosting'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/jetbrains-patch.md': {
       routes:
         | '/posts/jetbrains-patch'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/jetbrains-reset.md': {
@@ -410,11 +454,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/jetbrains-reset'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/life.md': {
       routes:
         | '/posts/life'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/notes.md': {
@@ -422,11 +470,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/notes'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/python/index.md': {
       routes:
         | '/posts/python/'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/python/python-using-selenium-on-edge.md': {
@@ -434,11 +486,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/python/python-using-selenium-on-edge'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/python/selenium.md': {
       routes:
         | '/posts/python/selenium'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/site-favourites.md': {
@@ -446,11 +502,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/site-favourites'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/test/index.md': {
       routes:
         | '/posts/test/'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/test/included.md': {
@@ -458,11 +518,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/test/included'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/tools.md': {
       routes:
         | '/posts/tools'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/virtual-machine.md': {
@@ -470,11 +534,15 @@ declare module 'vue-router/auto-routes' {
         | '/posts/virtual-machine'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/vsinger.md': {
       routes:
         | '/posts/vsinger'
       views:
+        | never
+      pathParamNames:
         | never
     }
     'pages/posts/wiki.md': {
@@ -482,17 +550,23 @@ declare module 'vue-router/auto-routes' {
         | '/posts/wiki'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/posts/yolov8.md': {
       routes:
         | '/posts/yolov8'
       views:
         | never
+      pathParamNames:
+        | never
     }
     'pages/tags/index.md': {
       routes:
         | '/tags/'
       views:
+        | never
+      pathParamNames:
         | never
     }
   }

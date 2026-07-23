@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "valaxy": "^0.28.11",
-    "valaxy-theme-yun": "^0.28.11"
+    "valaxy-theme-yun": "^0.28.11",
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
