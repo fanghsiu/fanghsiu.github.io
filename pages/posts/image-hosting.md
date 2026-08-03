@@ -17,12 +17,12 @@ vercel 反代 jsdelivr，速度感觉还不错。
 ![luotianyi_swimsuit_compress](https://cdn.fanghsiu.cn/gh/fanghsiu/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
 
 
-## github pages 
+<!-- ## github pages 
 单纯的Github直链很慢，利用GitHub自带的pages进行部署。速度感觉没快多少。
 :::info
 [luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/images/luotianyi_swimsuit_compress.jpg) ( 583KB )
 :::
-![luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress")
+![luotianyi_swimsuit_compress](https://fanghsiu.github.io/cdn/images/luotianyi_swimsuit_compress.jpg "luotianyi_swimsuit_compress") -->
 
 
 ## vercel
