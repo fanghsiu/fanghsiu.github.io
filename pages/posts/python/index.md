@@ -31,5 +31,5 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 :::
 
-1. <AppLink href='./python/python-using-selenium-on-edge'>Python: 在 Edge 上使用 selenium</AppLink>
-2. <AppLink href='./python/selenium'>selenium</AppLink>
+1. <AppLink href='./python-using-selenium-on-edge'>Python: 在 Edge 上使用 selenium</AppLink>
+2. <AppLink href='./selenium'>selenium</AppLink>
