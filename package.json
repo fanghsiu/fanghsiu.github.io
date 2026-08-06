@@ -15,8 +15,8 @@
     "new": "valaxy new"
   },
   "dependencies": {
-    "valaxy": "^0.28.11",
-    "valaxy-theme-yun": "^0.28.11",
+    "valaxy": "^1.0.0-rc.3",
+    "valaxy-theme-yun": "^1.0.0-rc.3",
     "vue-router": "^5.2.0"
   },
   "devDependencies": {
