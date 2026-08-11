@@ -139,4 +139,4 @@ docker run -d -p 80:80 fanghsiu-blog
 
 ## License
 
-[MIT](LICENSE)
+[CC BY-NC-SA 4.0](LICENSE)
