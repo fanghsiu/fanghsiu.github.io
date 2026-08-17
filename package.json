@@ -15,13 +15,18 @@
     "new": "valaxy new"
   },
   "dependencies": {
-    "valaxy": "^1.0.0-rc.5",
-    "valaxy-theme-yun": "^1.0.0-rc.5",
+    "valaxy": "^1.0.0-rc.6",
+    "valaxy-theme-yun": "^1.0.0-rc.6",
     "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-waline": "^0.2.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "esbuild@0.25.12": true,
+    "vue-demi@0.14.10": true
   }
 }
