@@ -157,13 +157,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/image-hosting': RouteRecordInfo<
-      '/posts/image-hosting',
-      '/posts/image-hosting',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/jetbrains-patch': RouteRecordInfo<
       '/posts/jetbrains-patch',
       '/posts/jetbrains-patch',
@@ -428,14 +421,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hi.md': {
       routes:
         | '/posts/hi'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/image-hosting.md': {
-      routes:
-        | '/posts/image-hosting'
       views:
         | never
       pathParamNames:
