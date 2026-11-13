@@ -129,13 +129,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/悲': RouteRecordInfo<
-      '/posts/悲',
-      '/posts/%E6%82%B2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/2026': RouteRecordInfo<
       '/posts/2026',
       '/posts/2026',
@@ -143,16 +136,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/fix-winre': RouteRecordInfo<
-      '/posts/fix-winre',
-      '/posts/fix-winre',
+    '/posts/bad-day': RouteRecordInfo<
+      '/posts/bad-day',
+      '/posts/bad-day',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/guide': RouteRecordInfo<
-      '/posts/guide',
-      '/posts/guide',
+    '/posts/fix-winre': RouteRecordInfo<
+      '/posts/fix-winre',
+      '/posts/fix-winre',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -401,14 +394,6 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/悲.md': {
-      routes:
-        | '/posts/悲'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
     'pages/posts/2026.md': {
       routes:
         | '/posts/2026'
@@ -417,17 +402,17 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/fix-winre.md': {
+    'pages/posts/bad-day.md': {
       routes:
-        | '/posts/fix-winre'
+        | '/posts/bad-day'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/guide.md': {
+    'pages/posts/fix-winre.md': {
       routes:
-        | '/posts/guide'
+        | '/posts/fix-winre'
       views:
         | never
       pathParamNames:

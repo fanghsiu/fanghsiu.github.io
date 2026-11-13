@@ -144,3 +144,14 @@ curl myip.ipip.net
 ```txt
 %WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'D:\Programs\miniconda3\shell\condabin\conda-hook.ps1' ; conda activate 'D:\Programs\miniconda3' "
 ```
+
+## Windows terminal
+Windows terminal 使用 Gitbash 时闪烁问题  
+新建`~/.inputrc`文件, 写入`set bell-style none`或`set bell-style audible`.  
+[GIT Bash has bad flicker · Issue #7200 · microsoft/terminal](https://github.com/microsoft/terminal/issues/7200)
+
+## 2FA-GitHub
+![2fa warn](https://s21.ax1x.com/2024/03/28/pFoYViV.png)
+早上一打开 GitHub 就看到了要求强制 2FA 的提示，烦死了。我认为 2FA 简直就是反人类的设计。但是人在屋檐下，不得不低头，GitHub 还得用，还是得开。
+
+推荐 Aegis，好用，开源，简洁。

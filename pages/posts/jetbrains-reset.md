@@ -3,7 +3,7 @@ layout: post
 title: Jetbrains Reset
 date: 2022-05-01
 updated: 2022-05-02
-categories: [Jetbrains]
+categories: [笔记, Jetbrains]
 tags: [Jetbrains]
 ---
 

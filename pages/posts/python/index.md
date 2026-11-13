@@ -3,7 +3,7 @@ layout: post
 title: Python
 date: 2023-11-09
 updated: 2023-11-09
-categories: [Python]
+categories: [笔记, Python]
 tags: [python, selenium]
 ---
 

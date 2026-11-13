@@ -3,7 +3,7 @@ layout: post
 title: 功能测试
 date: 2023-06-01
 updated: 2023-06-01
-categories: [Valaxy]
+categories: [笔记, Valaxy]
 tags: [测试]
 codeHeightLimit: 300
 ---

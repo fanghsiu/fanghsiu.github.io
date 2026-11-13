@@ -2,7 +2,7 @@
 layout: post
 title: Android & Windows 工具
 date: 2023-10-20
-updated: 2023-10-20
+# updated: 2023-10-20
 categories: [笔记]
 tags: [Android, Windows]
 end: false
@@ -11,27 +11,38 @@ end: false
 ## Android
 
 ### MT管理器
-[MT管理器](https://mt2.cn/)  
+
+[MT管理器](https://mt2.cn/)
+
 Android 平台文件管理 & 逆向修改神器
 
-### 元萝卜 
-[元萝卜 - 官方网站](https://www.die.lu/)
-
 ### 闪指连点器
-[2022闪指连点器v3.1.3老旧历史版本安装包官方免费下载_豌豆荚](https://www.wandoujia.com/apps/8263424/history_v32)  
+
+[2022闪指连点器v3.1.3老旧历史版本安装包官方免费下载_豌豆荚](https://www.wandoujia.com/apps/8263424/history_v32)
+
 最后一个无广告版本，后面都有开屏广告。
+
+### Aegis
+一个免费、安全和开源的Android应用程序，用于管理您的两步验证令牌。
+
+[beemdevelopment/Aegis: A free, secure and open source app for Android to manage your 2-step verification tokens.](https://github.com/beemdevelopment/Aegis)
 
 ---
 
 ## Windows
 
 ### 哔哩哔哩下载器
-一款命令行式哔哩哔哩下载器.  
+
+一款命令行式哔哩哔哩下载器.
+
 https://github.com/nilaoda/BBDown
 
 ### 微软激活脚本
-https://massgrave.dev/  
-https://github.com/massgravel/Microsoft-Activation-Scripts  
+
+https://massgrave.dev/
+
+https://github.com/massgravel/Microsoft-Activation-Scripts
+
 使用HWID / Ohook /KMS 38/ Online KMS激活方法的Windows和Office激活器，专注于开源代码和更少的防病毒检测
 
 #### 下载 / 如何使用？
@@ -78,6 +89,9 @@ https://github.com/WindowsAddict/IDM-Activation-Script
 - 仅此而已
 
 ### Microsoft PowerToys
-https://github.com/microsoft/PowerToys  
-Windows系统实用程序可最大限度地提高工作效率  
+
+https://github.com/microsoft/PowerToys
+
+Windows系统实用程序可最大限度地提高工作效率
+
 Microsoft PowerToys是一组实用程序，可供高级用户调整和简化其Windows体验，从而提高工作效率。有关[PowerToys概述以及如何使用这些实用程序](https://learn.microsoft.com/zh-cn/windows/powertoys)或[Windows开发环境](https://learn.microsoft.com/windows/dev-environment/overview)的任何其他工具和资源的更多信息，请访问[learn.microsoft.com](https://learn.microsoft.com/zh-cn/windows/powertoys)！
