@@ -1,6 +1,5 @@
 import { defineValaxyConfig } from "valaxy"
 import { UserThemeConfig } from "valaxy-theme-yun"
-// import generateSitemap from "vite-ssg-sitemap"
 
 import { addonWaline } from "valaxy-addon-waline/index.js"
 import { addonLightGallery } from "valaxy-addon-lightgallery"
@@ -28,21 +27,6 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLightGallery(),
   ],
-
-  // vite: {
-  //   ssgOptions: {
-  //     onFinished() {
-  //       generateSitemap({
-  //         hostname: "https://fanghsiu.cn",
-  //         robots: [{
-  //           userAgent: "*",
-  //           allow: "/",
-  //           disallow: ["/images/qq.png", "/images/wx.png"],
-  //         },],
-  //       },)
-  //     },
-  //   },
-  // },
 
   markdown: {
     lineNumbers: true,
