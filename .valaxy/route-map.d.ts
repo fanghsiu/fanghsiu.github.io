@@ -129,13 +129,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/2026': RouteRecordInfo<
-      '/posts/2026',
-      '/posts/2026',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/bad-day': RouteRecordInfo<
       '/posts/bad-day',
       '/posts/bad-day',
@@ -389,14 +382,6 @@ declare module 'vue-router/auto-routes' {
     'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/2026.md': {
-      routes:
-        | '/posts/2026'
       views:
         | never
       pathParamNames:
