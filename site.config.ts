@@ -86,4 +86,10 @@ export default defineSiteConfig({
   encrypt: {
     enable: true,
   },
+
+  license: {
+    enabled: true,
+    language: "zh-hans",
+    type: "by-nc-sa"
+  }
 })
